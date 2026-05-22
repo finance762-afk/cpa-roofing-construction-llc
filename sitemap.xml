@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Homepage -->
+  <url>
+    <loc>https://cpa-roofing-construction-llc.pageone.cloud/</loc>
+    <lastmod>2026-05-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Services Main -->
+  <url>
+    <loc>https://cpa-roofing-construction-llc.pageone.cloud/services/</loc>
+    <lastmod>2026-05-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Roofing Services -->
+  <url>
+    <loc>https://cpa-roofing-construction-llc.pageone.cloud/services/roofing-services/</loc>
+    <lastmod>2026-05-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Additional Services -->
+  <url>
+    <loc>https://cpa-roofing-construction-llc.pageone.cloud/services/additional-services/</loc>
+    <lastmod>2026-05-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Drywall Installation -->
+  <url>
+    <loc>https://cpa-roofing-construction-llc.pageone.cloud/services/drywall-installation/</loc>
+    <lastmod>2026-05-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Drywall Repair -->
+  <url>
+    <loc>https://cpa-roofing-construction-llc.pageone.cloud/services/drywall-repair/</loc>
+    <lastmod>2026-05-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Service Area -->
+  <url>
+    <loc>https://cpa-roofing-construction-llc.pageone.cloud/service-area/</loc>
+    <lastmod>2026-05-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- About -->
+  <url>
+    <loc>https://cpa-roofing-construction-llc.pageone.cloud/about/</loc>
+    <lastmod>2026-05-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Contact -->
+  <url>
+    <loc>https://cpa-roofing-construction-llc.pageone.cloud/contact/</loc>
+    <lastmod>2026-05-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Privacy Policy -->
+  <url>
+    <loc>https://cpa-roofing-construction-llc.pageone.cloud/privacy-policy/</loc>
+    <lastmod>2026-05-22</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <!-- Terms of Service -->
+  <url>
+    <loc>https://cpa-roofing-construction-llc.pageone.cloud/terms/</loc>
+    <lastmod>2026-05-22</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <!-- Cookie Policy -->
+  <url>
+    <loc>https://cpa-roofing-construction-llc.pageone.cloud/cookie-policy/</loc>
+    <lastmod>2026-05-22</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <!-- Accessibility -->
+  <url>
+    <loc>https://cpa-roofing-construction-llc.pageone.cloud/accessibility/</loc>
+    <lastmod>2026-05-22</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+</urlset>

@@ -10,9 +10,9 @@ $tagline        = 'Your Roof, Our Commitment';
 $industry       = 'roofing';
 
 // ── Contact ─────────────────────────────────────────────────
-$phone          = '';
+$phone          = '(636) 555-0100';
 $phoneSecondary = '';
-$email          = '';
+$email          = 'info@cpa-roofing.com';
 
 // ── Address ─────────────────────────────────────────────────
 $address = [
@@ -194,7 +194,7 @@ $yearEstablished = 1995;
 $yearsInBusiness = (int) date('Y') - $yearEstablished;
 
 // ── Form Action ─────────────────────────────────────────────
-$formAction = 'https://design.pageone.cloud/api/leads/cpa-roofing-construction-llc';
+$formAction = 'https://db.pageone.cloud/functions/v1/leads/cpa-roofing-construction-llc';
 
 // ── Logo ────────────────────────────────────────────────────
 $logoUrl     = 'https://db.pageone.cloud/storage/v1/object/public/client-assets/cpa-roofing-construction-llc/logo/1779465444410-tft9zg-Logo_for_client_transparent.png';

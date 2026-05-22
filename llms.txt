@@ -1,0 +1,50 @@
+# CPA Roofing & Construction, LLC
+
+## Company Overview
+CPA Roofing & Construction, LLC is a licensed roofing and general construction contractor based in Warrenton, Missouri. Founded in 1995, the company serves residential and commercial property owners across central and eastern Missouri within a 50-mile radius of Warrenton. Licensed, insured, and available seven days a week.
+
+## Location
+- City: Warrenton, MO 63383
+- Service radius: 50 miles
+- Counties served: Warren, Lincoln, Montgomery, Gasconade, Franklin, St. Charles (partial)
+
+## Services Offered
+1. New Roof Installation — Shingle, metal, and flat roof systems for homes and businesses
+2. Roof Repairs — Leak fixes, flashing repair, emergency response
+3. Commercial Roofing — Large-scale installations for warehouses, offices, and retail
+4. Commercial Roof Repairs — Flat and low-slope business roof maintenance and repair
+5. Metal Roofing — Standing seam and corrugated metal, 40–60 year lifespan
+6. TPO Roofing — Energy-efficient single-ply membrane systems for commercial flat roofs
+7. Roof Coatings — Protective silicone and acrylic coatings that extend roof life 10–15 years
+8. Roof Tear-Offs — Complete removal of old roofing before replacement
+9. Insurance Roofing Bids — Storm damage inspections, adjuster coordination, claim filing
+10. Siding Installation & Repair — Vinyl, fiber cement, and engineered wood siding
+11. Roofing Contractor Services — Full-service inspections, maintenance plans, code-compliant work
+12. Drywall Installation — New construction, remodels, and storm damage restoration
+13. Drywall Repair — Water damage repair, hole patching, texture matching
+
+## Service Areas
+Warrenton, Wright City, Wentzville, Troy, Moscow Mills, Jonesburg, Montgomery City, Foristell, Marthasville, New Florence, Hermann, and surrounding communities across Warren County and the I-70 corridor.
+
+## Key Facts
+- Founded: 1995
+- Years in business: 30+
+- Licensed and insured in Missouri
+- Available 7 days a week, 7 AM – 7 PM
+- Free estimates on every project
+- Insurance claim specialists since 1995
+- Residential and commercial
+
+## Contact
+- Website: https://cpa-roofing-construction-llc.pageone.cloud
+- Location: Warrenton, MO 63383
+
+## Detailed Service Information
+- /services/ — Full list of all 13 services
+- /services/roofing-services/ — 9 roofing services with detailed descriptions
+- /services/additional-services/ — Siding and general roofing contractor services
+- /services/drywall-installation/ — Drywall installation details and process
+- /services/drywall-repair/ — Drywall repair, water damage restoration
+- /about/ — Company history and credentials
+- /service-area/ — Service area coverage and communities served
+- /contact/ — Contact form and business information

@@ -135,8 +135,8 @@ $cssVersion      = '2';
     <div class="thankyou-check">
       <i data-lucide="check-circle" style="width:36px;height:36px"></i>
     </div>
-    <h2>Your Message Has Been Received</h2>
-    <p>We appreciate you contacting <?php echo htmlspecialchars($siteName); ?>. A member of our team will review your inquiry and get back to you as soon as possible.</p>
+    <h2>Did We Receive Your Message?</h2>
+    <p>Yes! We appreciate you contacting <?php echo htmlspecialchars($siteName); ?>. A member of our team will review your inquiry and get back to you as soon as possible.</p>
 
     <div class="thankyou-next">
       <h3>What Happens Next</h3>

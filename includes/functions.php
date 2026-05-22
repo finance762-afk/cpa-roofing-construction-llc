@@ -116,3 +116,17 @@ function findServiceByName($name) {
     }
     return null;
 }
+
+/**
+ * Get the group page URL for a service by name.
+ * Maps individual services to their actual service group page.
+ */
+function getServiceGroupUrl($serviceName) {
+    global $serviceGroups;
+    foreach ($serviceGroups as $group) {
+        if (in_array($serviceName, $group['services'])) {
+            return '/services/' . $group['slug'] . '/';
+        }
+    }
+    return '/services/';
+}

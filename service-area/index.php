@@ -462,7 +462,7 @@ foreach ($communities as $i => $community):
 
     <div class="area-services-grid" data-animate>
 <?php foreach ($services as $i => $svc): ?>
-      <a href="/services/<?= htmlspecialchars($svc['slug']) ?>/" class="area-service-item card-tint-<?= $tints[$i % 3] ?>">
+      <a href="<?= htmlspecialchars(getServiceGroupUrl($svc['name'])) ?>" class="area-service-item card-tint-<?= $tints[$i % 3] ?>">
         <i data-lucide="check-circle"></i>
         <span><?= htmlspecialchars($svc['name']) ?></span>
       </a>

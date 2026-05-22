@@ -24,28 +24,21 @@
         <div class="footer-col">
           <h4>Our Services</h4>
           <ul>
-<?php
-$footerServices = array_slice($services, 0, 8);
-foreach ($footerServices as $svc):
-?>
-            <li><a href="/services/<?php echo htmlspecialchars($svc['slug']); ?>/"><?php echo htmlspecialchars($svc['name']); ?></a></li>
+<?php foreach ($serviceGroups as $group): ?>
+            <li><a href="/services/<?php echo htmlspecialchars($group['slug']); ?>/"><?php echo htmlspecialchars($group['page']); ?></a></li>
 <?php endforeach; ?>
-<?php if (count($services) > 8): ?>
             <li><a href="/services/">View All Services &rarr;</a></li>
-<?php endif; ?>
           </ul>
         </div>
 
-        <!-- Col 3: More Services + Areas -->
+        <!-- Col 3: Quick Links + Areas -->
         <div class="footer-col">
-          <h4>More Services</h4>
+          <h4>Quick Links</h4>
           <ul>
-<?php
-$moreServices = array_slice($services, 8);
-foreach ($moreServices as $svc):
-?>
-            <li><a href="/services/<?php echo htmlspecialchars($svc['slug']); ?>/"><?php echo htmlspecialchars($svc['name']); ?></a></li>
-<?php endforeach; ?>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about/">About Us</a></li>
+            <li><a href="/contact/">Contact</a></li>
+            <li><a href="/service-area/">Service Area</a></li>
           </ul>
 
           <h4 style="margin-top:var(--space-6)">Service Areas</h4>

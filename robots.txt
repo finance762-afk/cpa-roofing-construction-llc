@@ -1,0 +1,27 @@
+User-agent: *
+Allow: /
+Disallow: /thank-you/
+Disallow: /includes/
+Disallow: /assets/js/
+
+# AI crawlers allowed
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+Sitemap: https://cpa-roofing-construction-llc.pageone.cloud/sitemap.xml
+Sitemap: https://cpa-roofing-construction-llc.pageone.cloud/sitemap-images.xml

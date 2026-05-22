@@ -556,7 +556,7 @@ $schemaMarkup = json_encode($faqSchema, JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRI
   </div>
 
   <aside class="hero-form-card" id="estimate-form">
-    <h2>Get Your Free Estimate</h2>
+    <h2>Ready to Get Your Free Estimate?</h2>
     <p class="hero-form-tagline">No obligation. Same-day response.</p>
     <form action="<?= htmlspecialchars($formAction) ?>" method="POST" class="hero-form">
       <input type="text" name="_honey" style="display:none !important" tabindex="-1" autocomplete="off" aria-hidden="true">
@@ -568,10 +568,10 @@ $schemaMarkup = json_encode($faqSchema, JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRI
         <input type="text" name="name" placeholder="Full name" required>
       </div>
       <div class="form-row">
-        <input type="tel" name="phone" placeholder="Phone number" required>
+        <input type="email" name="email" placeholder="Email address" required>
       </div>
       <div class="form-row">
-        <input type="text" name="zip" placeholder="ZIP code" pattern="[0-9]{5}" required>
+        <input type="tel" name="phone" placeholder="Phone number" required>
       </div>
       <div class="form-row">
         <select name="service">
@@ -587,8 +587,29 @@ $schemaMarkup = json_encode($faqSchema, JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRI
           <option value="Other">Other</option>
         </select>
       </div>
+
+      <fieldset class="form-consent-fieldset" style="border:none;padding:0;margin:var(--space-3) 0 0;">
+        <label class="form-consent-item" style="display:flex;gap:var(--space-2);align-items:flex-start;margin-bottom:var(--space-2);cursor:pointer;">
+          <input type="checkbox" name="email_opt_in" value="yes" class="consent-checkbox" style="flex-shrink:0;width:16px;height:16px;margin-top:2px;accent-color:var(--color-accent);">
+          <span style="font-size:var(--font-size-xs);color:rgba(255,255,255,0.6);line-height:1.4;">
+            <strong style="color:rgba(255,255,255,0.8);">Email updates (optional):</strong> I agree to receive emails from <?= htmlspecialchars($siteName) ?> about my inquiry and services. Unsubscribe anytime.
+          </span>
+        </label>
+        <label class="form-consent-item" style="display:flex;gap:var(--space-2);align-items:flex-start;margin-bottom:var(--space-2);cursor:pointer;">
+          <input type="checkbox" name="sms_opt_in" value="yes" class="consent-checkbox" style="flex-shrink:0;width:16px;height:16px;margin-top:2px;accent-color:var(--color-accent);">
+          <span style="font-size:var(--font-size-xs);color:rgba(255,255,255,0.6);line-height:1.4;">
+            <strong style="color:rgba(255,255,255,0.8);">SMS/Text (optional):</strong> I agree to receive texts from <?= htmlspecialchars($siteName) ?>. Msg &amp; data rates may apply. Reply STOP to opt out. <strong style="color:rgba(255,255,255,0.8);">Consent is not a condition of purchase.</strong>
+          </span>
+        </label>
+        <label class="form-consent-item" style="display:flex;gap:var(--space-2);align-items:flex-start;cursor:pointer;">
+          <input type="checkbox" name="terms_accepted" value="yes" class="consent-checkbox" required style="flex-shrink:0;width:16px;height:16px;margin-top:2px;accent-color:var(--color-accent);">
+          <span style="font-size:var(--font-size-xs);color:rgba(255,255,255,0.6);line-height:1.4;">
+            I agree to the <a href="/privacy-policy/" style="color:rgba(255,255,255,0.8);text-decoration:underline;">Privacy Policy</a> and <a href="/terms/" style="color:rgba(255,255,255,0.8);text-decoration:underline;">Terms of Service</a>. <span style="color:var(--color-accent);font-weight:700;">*</span>
+          </span>
+        </label>
+      </fieldset>
+
       <button type="submit" class="btn btn-primary btn-block">Get My Free Estimate</button>
-      <p class="form-footnote">By submitting, you agree to our <a href="/terms/">Terms</a> and <a href="/privacy-policy/">Privacy Policy</a>.</p>
     </form>
   </aside>
 
@@ -719,7 +740,7 @@ foreach ($homepageServices as $i => $svc):
      ═══════════════════════════════════════════════════════════════ -->
 <section class="cta-banner" aria-label="Call to action">
   <div class="container">
-    <h2>Missouri Storm Season Doesn't Wait — Neither Should You</h2>
+    <h2>Is Your Missouri Roof Ready for Storm Season?</h2>
     <p>Hail, wind, and ice cause billions in roof damage across Missouri every year. A free inspection today can save thousands in emergency repairs tomorrow. CPA Roofing responds within 48 hours — call or request your estimate now.</p>
     <div>
       <a href="#estimate-form" class="btn btn-primary btn-lg">Schedule Free Inspection</a>
@@ -847,7 +868,7 @@ foreach ($homepageServices as $i => $svc):
 
     <div class="section-header" data-animate>
       <span class="eyebrow">FAQ</span>
-      <h2>Common <span class="text-accent">Roofing Questions</span> from Warrenton Homeowners</h2>
+      <h2>What Are the Most Common <span class="text-accent">Roofing Questions</span> from Warrenton Homeowners?</h2>
       <p>Answers to the questions we hear most from homeowners and business owners in Warren County.</p>
     </div>
 
@@ -872,7 +893,7 @@ foreach ($homepageServices as $i => $svc):
      ═══════════════════════════════════════════════════════════════ -->
 <section class="closing-cta" aria-label="Final call to action">
   <div class="container">
-    <h2>Protect Your Property with a Contractor <span class="text-accent">Warrenton Trusts</span></h2>
+    <h2>Why Should You Choose a Roofing Contractor <span class="text-accent">Warrenton Trusts</span>?</h2>
     <p>From the first phone call to the final walkthrough, CPA Roofing & Construction delivers the craftsmanship and communication your project deserves. Licensed, insured, and available seven days a week.</p>
     <a href="#estimate-form" class="btn btn-primary btn-lg">Get Your Free Estimate</a>
   </div>
