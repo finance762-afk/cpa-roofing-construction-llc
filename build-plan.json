@@ -1,0 +1,720 @@
+{
+  "seo": {
+    "target_radius": 50,
+    "primary_keyword": "roofing contractor warrenton mo",
+    "secondary_keywords": [
+      "roof repair warrenton mo",
+      "metal roofing warrenton mo",
+      "commercial roofing warrenton mo",
+      "new roof installation warrenton mo",
+      "tpo roofing warrenton mo",
+      "roof coatings warrenton mo",
+      "roofing near me warrenton",
+      "commercial roof repair warrenton mo",
+      "roof tear off warrenton mo",
+      "insurance roofing claims warrenton mo",
+      "siding installation warrenton mo",
+      "roofer near me warrenton"
+    ]
+  },
+  "tier": "basic",
+  "email": "",
+  "pages": [
+    {
+      "slug": "drywall-installation",
+      "type": "service",
+      "title": "Drywall Installation in Warrenton, MO",
+      "sections": "hero, service_details, process, testimonials, cta",
+      "services": [
+        "Drywall Installation"
+      ],
+      "primary_keyword": "drywall installation Warrenton MO"
+    },
+    {
+      "slug": "drywall-repair",
+      "type": "service",
+      "title": "Drywall Repair in Warrenton, MO",
+      "sections": "hero, service_details, process, testimonials, cta",
+      "services": [
+        "Drywall Repair"
+      ],
+      "primary_keyword": "drywall repair Warrenton MO"
+    },
+    {
+      "slug": "roofing-services",
+      "type": "service_group",
+      "title": "Roofing Services in Warrenton, MO",
+      "sections": "hero, service_cards_grid, individual_service_details, process, cta",
+      "services": [
+        "Commercial Roofing",
+        "Roof Repairs",
+        "Commercial Roof Repairs",
+        "Insurance Roofing Bids",
+        "New Roof Installation",
+        "Roof Tear-Offs",
+        "TPO Roofing",
+        "Metal Roofing",
+        "Roof Coatings"
+      ],
+      "primary_keyword": "commercial roof repairs Warrenton MO"
+    },
+    {
+      "slug": "additional-services",
+      "type": "service_group",
+      "title": "Additional Services in Warrenton, MO",
+      "sections": "hero, service_cards_grid, individual_service_details, process, cta",
+      "services": [
+        "Siding Installation & Repair",
+        "Roofing Contractor Services"
+      ],
+      "primary_keyword": "siding installation & repair Warrenton MO"
+    }
+  ],
+  "phone": "",
+  "assets": {
+    "logo": {
+      "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/cpa-roofing-construction-llc/logo/1779465444410-tft9zg-Logo_for_client_transparent.png",
+      "storage_path": "cpa-roofing-construction-llc/logo/1779465444410-tft9zg-Logo_for_client_transparent.png"
+    },
+    "images": [
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/cpa-roofing-construction-llc/logo/1779465444410-tft9zg-Logo_for_client_transparent.png",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "logo",
+        "storage_path": "cpa-roofing-construction-llc/logo/1779465444410-tft9zg-Logo_for_client_transparent.png",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/cpa-roofing-construction-llc/photos/1779465576127-6yqxml-40685019_1098160703666496_7573720096833536000_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "cpa-roofing-construction-llc/photos/1779465576127-6yqxml-40685019_1098160703666496_7573720096833536000_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/cpa-roofing-construction-llc/photos/1779465576661-1pcsmi-40796539_1098160440333189_6465900146881200128_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "cpa-roofing-construction-llc/photos/1779465576661-1pcsmi-40796539_1098160440333189_6465900146881200128_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/cpa-roofing-construction-llc/photos/1779465576889-vjcrs5-40823370_1098160710333162_8459667473703108608_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "cpa-roofing-construction-llc/photos/1779465576889-vjcrs5-40823370_1098160710333162_8459667473703108608_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/cpa-roofing-construction-llc/photos/1779465577268-98r6b7-40840070_1098160793666487_8097673370704805888_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "cpa-roofing-construction-llc/photos/1779465577268-98r6b7-40840070_1098160793666487_8097673370704805888_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/cpa-roofing-construction-llc/photos/1779465577564-f2w9k5-40841389_1098160560333177_1829770370060648448_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "cpa-roofing-construction-llc/photos/1779465577564-f2w9k5-40841389_1098160560333177_1829770370060648448_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/cpa-roofing-construction-llc/photos/1779465577835-ey009e-40848401_1098160610333172_2132106209086406656_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "cpa-roofing-construction-llc/photos/1779465577835-ey009e-40848401_1098160610333172_2132106209086406656_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/cpa-roofing-construction-llc/photos/1779465578117-ahpx0j-40855264_1098160506999849_1343386300408922112_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "cpa-roofing-construction-llc/photos/1779465578117-ahpx0j-40855264_1098160506999849_1343386300408922112_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/cpa-roofing-construction-llc/photos/1779465578360-gixaxo-40855319_1098158550333378_7586121664576880640_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "cpa-roofing-construction-llc/photos/1779465578360-gixaxo-40855319_1098158550333378_7586121664576880640_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/cpa-roofing-construction-llc/photos/1779465578609-shsq41-40858892_1098161103666456_815438685477535744_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "cpa-roofing-construction-llc/photos/1779465578609-shsq41-40858892_1098161103666456_815438685477535744_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/cpa-roofing-construction-llc/photos/1779465578896-mr2wol-40860478_1098160656999834_1217212397614268416_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "cpa-roofing-construction-llc/photos/1779465578896-mr2wol-40860478_1098160656999834_1217212397614268416_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/cpa-roofing-construction-llc/photos/1779465579158-pcldjp-40867936_1098158017000098_6263165007471575040_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "cpa-roofing-construction-llc/photos/1779465579158-pcldjp-40867936_1098158017000098_6263165007471575040_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/cpa-roofing-construction-llc/photos/1779465579437-is3xq9-40882613_1098161186999781_153905346983755776_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "cpa-roofing-construction-llc/photos/1779465579437-is3xq9-40882613_1098161186999781_153905346983755776_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/cpa-roofing-construction-llc/photos/1779465579689-3yzlyg-40910872_1098157970333436_7289550869958230016_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "cpa-roofing-construction-llc/photos/1779465579689-3yzlyg-40910872_1098157970333436_7289550869958230016_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/cpa-roofing-construction-llc/photos/1779465579984-jgnwrl-40922980_1098157833666783_5970421295001632768_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "cpa-roofing-construction-llc/photos/1779465579984-jgnwrl-40922980_1098157833666783_5970421295001632768_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/cpa-roofing-construction-llc/photos/1779465580272-eij90s-40924666_1098161123666454_4363022886756155392_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "cpa-roofing-construction-llc/photos/1779465580272-eij90s-40924666_1098161123666454_4363022886756155392_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/cpa-roofing-construction-llc/photos/1779465580577-bgkfq7-40932323_1098161016999798_8523916490779394048_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "cpa-roofing-construction-llc/photos/1779465580577-bgkfq7-40932323_1098161016999798_8523916490779394048_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/cpa-roofing-construction-llc/photos/1779465580807-k44qk0-40943241_1098158037000096_3175807249406754816_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "cpa-roofing-construction-llc/photos/1779465580807-k44qk0-40943241_1098158037000096_3175807249406754816_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/cpa-roofing-construction-llc/photos/1779465581435-oynoxf-40943247_1098157867000113_4866839897949863936_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "cpa-roofing-construction-llc/photos/1779465581435-oynoxf-40943247_1098157867000113_4866839897949863936_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/cpa-roofing-construction-llc/photos/1779465581689-k1wxbt-40946735_1098157993666767_4024531716679925760_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "cpa-roofing-construction-llc/photos/1779465581689-k1wxbt-40946735_1098157993666767_4024531716679925760_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/cpa-roofing-construction-llc/photos/1779465581960-gc37j5-40952056_1098160603666506_6435786249973268480_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "cpa-roofing-construction-llc/photos/1779465581960-gc37j5-40952056_1098160603666506_6435786249973268480_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/cpa-roofing-construction-llc/photos/1779465582236-46sc8o-40952114_1098160993666467_8293297405776887808_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "cpa-roofing-construction-llc/photos/1779465582236-46sc8o-40952114_1098160993666467_8293297405776887808_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/cpa-roofing-construction-llc/photos/1779465582520-kne4vd-40953821_1098157950333438_8337865327924740096_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "cpa-roofing-construction-llc/photos/1779465582520-kne4vd-40953821_1098157950333438_8337865327924740096_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/cpa-roofing-construction-llc/photos/1779465582782-nkhy9b-40962687_1098160736999826_4326515484351528960_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "cpa-roofing-construction-llc/photos/1779465582782-nkhy9b-40962687_1098160736999826_4326515484351528960_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/cpa-roofing-construction-llc/photos/1779465583051-1cql0y-40962710_1098160546999845_1771119778430189568_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "cpa-roofing-construction-llc/photos/1779465583051-1cql0y-40962710_1098160546999845_1771119778430189568_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/cpa-roofing-construction-llc/photos/1779465583318-eaznz9-40964534_1098160930333140_179478836394590208_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "cpa-roofing-construction-llc/photos/1779465583318-eaznz9-40964534_1098160930333140_179478836394590208_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/cpa-roofing-construction-llc/photos/1779465583601-fnnx4u-40969245_1098160496999850_5808733475867459584_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "cpa-roofing-construction-llc/photos/1779465583601-fnnx4u-40969245_1098160496999850_5808733475867459584_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/cpa-roofing-construction-llc/photos/1779465583893-4ddgo4-40980493_1098160916999808_6296726951369375744_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "cpa-roofing-construction-llc/photos/1779465583893-4ddgo4-40980493_1098160916999808_6296726951369375744_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/cpa-roofing-construction-llc/photos/1779465584182-6jm3i3-41008050_1098160856999814_4481401681606606848_n.1.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "cpa-roofing-construction-llc/photos/1779465584182-6jm3i3-41008050_1098160856999814_4481401681606606848_n.1.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/cpa-roofing-construction-llc/photos/1779465599237-qyem5o-41262329_1098158137000086_7850474401974714368_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "cpa-roofing-construction-llc/photos/1779465599237-qyem5o-41262329_1098158137000086_7850474401974714368_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/cpa-roofing-construction-llc/photos/1779465599517-1u48ck-41264465_1098160876999812_2383279542983720960_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "cpa-roofing-construction-llc/photos/1779465599517-1u48ck-41264465_1098160876999812_2383279542983720960_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/cpa-roofing-construction-llc/photos/1779465599787-97fu9k-41284003_1098160750333158_5743105404921970688_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "cpa-roofing-construction-llc/photos/1779465599787-97fu9k-41284003_1098160750333158_5743105404921970688_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/cpa-roofing-construction-llc/photos/1779465600061-qh953a-299942829_568454614974170_4782178649910921295_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "cpa-roofing-construction-llc/photos/1779465600061-qh953a-299942829_568454614974170_4782178649910921295_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/cpa-roofing-construction-llc/photos/1779465600430-8y0lga-477796834_1135389874947305_1317857861976220959_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "cpa-roofing-construction-llc/photos/1779465600430-8y0lga-477796834_1135389874947305_1317857861976220959_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/cpa-roofing-construction-llc/photos/1779465600783-kl48wg-480792551_1143368090816150_4859576737511326695_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "cpa-roofing-construction-llc/photos/1779465600783-kl48wg-480792551_1143368090816150_4859576737511326695_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/cpa-roofing-construction-llc/photos/1779465601102-5dvfnl-482006510_1153868093099483_1871048935073118283_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "cpa-roofing-construction-llc/photos/1779465601102-5dvfnl-482006510_1153868093099483_1871048935073118283_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/cpa-roofing-construction-llc/photos/1779465601794-ybtpm6-502563900_3071585959657284_3188033540827783216_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "cpa-roofing-construction-llc/photos/1779465601794-ybtpm6-502563900_3071585959657284_3188033540827783216_n.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/cpa-roofing-construction-llc/photos/1779465602468-t4fnin-41314351_1098160403666526_4682288297156804608_n.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "cpa-roofing-construction-llc/photos/1779465602468-t4fnin-41314351_1098160403666526_4682288297156804608_n.jpg",
+        "quality_score": null
+      }
+    ],
+    "page_allocations": null,
+    "recommended_hero_image": {
+      "alt": "",
+      "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/cpa-roofing-construction-llc/logo/1779465444410-tft9zg-Logo_for_client_transparent.png",
+      "context": "logo",
+      "quality_score": null
+    }
+  },
+  "design": {
+    "fonts": {},
+    "notes": "",
+    "style": "elegant",
+    "colors": {
+      "accent": "#005ef5",
+      "primary": "#f55600",
+      "secondary": "#f5f5f5",
+      "extracted_from_logo": false
+    },
+    "logo_analysis": {}
+  },
+  "domain": "cpa-roofing-construction-llc",
+  "phases": [
+    {
+      "name": "scaffold",
+      "phase": 1,
+      "status": "pending"
+    },
+    {
+      "name": "nav_footer_head",
+      "phase": 2,
+      "status": "pending"
+    },
+    {
+      "name": "homepage",
+      "phase": 3,
+      "status": "pending"
+    },
+    {
+      "name": "inner_pages",
+      "phase": 4,
+      "status": "pending"
+    },
+    {
+      "name": "seo_aeo_deploy",
+      "phase": 5,
+      "status": "pending"
+    }
+  ],
+  "address": {
+    "zip": "63383",
+    "city": "Warrenton",
+    "state": "MO",
+    "street": ""
+  },
+  "content": {
+    "usps": [],
+    "years": 17,
+    "insurance": "",
+    "description": "Founded in 1995, CPA Roofing & Construction, LLC has spent nearly three decades building a reputation for honesty, reliability, and exceptional craftsmanship throughout Missouri. Based in Warrenton and serving communities across central and eastern Missouri, we've become the trusted contractor of choice for homeowners and businesses who demand quality work and dependable service.\n\nWe specialize in comprehensive roofing and construction solutions, including residential and commercial roofing, siding, drywall, and insurance-based storm restoration. Our deep understanding of insurance claims processes means we're not just contractors — we're advocates who help our clients navigate the complexities of storm damage recovery and ensure they receive the support they deserve.\n\nFrom the first consultation to final inspection, we're committed to transparent communication, meticulous craftsmanship, and standing behind every project we complete. Available seven days a week, fully licensed and insured, and dedicated to protecting your property with work built to last, CPA Roofing & Construction delivers the quality and reliability that Missouri families have trusted since 1995.",
+    "certifications": []
+  },
+  "reviews": [],
+  "tagline": "Your Roof, Our Commitment",
+  "industry": "roofing",
+  "services": [
+    {
+      "name": "Roofing Contractor Services",
+      "keywords": [
+        "roofing contractor Warrenton MO",
+        "professional roofer",
+        "roofing services",
+        "residential roofing"
+      ],
+      "description": "Full-service roofing solutions for residential and commercial properties in Warrenton, MO. Professional contractors specializing in all types of roof installations, repairs, and maintenance."
+    },
+    {
+      "name": "Commercial Roofing",
+      "keywords": [
+        "commercial roofing Warrenton MO",
+        "commercial roof contractor",
+        "business roofing",
+        "flat roof repair"
+      ],
+      "description": "Expert commercial roofing services designed for businesses in Warrenton, MO. We handle large-scale installations and repairs for commercial properties of all sizes."
+    },
+    {
+      "name": "Roof Repairs",
+      "keywords": [
+        "roof repair Warrenton MO",
+        "roof leak repair",
+        "emergency roof repair",
+        "roof damage repair"
+      ],
+      "description": "Professional roof repair services to fix leaks, damage, and wear. Quick response and quality repairs keep your Warrenton, MO property protected year-round."
+    },
+    {
+      "name": "Commercial Roof Repairs",
+      "keywords": [
+        "commercial roof repair Warrenton MO",
+        "business roof repair",
+        "commercial leak repair",
+        "flat roof repair"
+      ],
+      "description": "Specialized commercial roof repair services for businesses in Warrenton, MO. We minimize downtime with efficient, professional repairs."
+    },
+    {
+      "name": "Insurance Roofing Bids",
+      "keywords": [
+        "insurance roofing bids Warrenton MO",
+        "roof damage claims",
+        "insurance roof assessment",
+        "storm damage roof"
+      ],
+      "description": "Insurance claim roofing assessments and bids for Warrenton, MO property owners. We work with insurance companies to ensure fair coverage for roof damage."
+    },
+    {
+      "name": "New Roof Installation",
+      "keywords": [
+        "roof installation Warrenton MO",
+        "new roof contractor",
+        "residential roof installation",
+        "commercial roof installation"
+      ],
+      "description": "New roof installation services for homes and businesses in Warrenton, MO. Quality materials and expert craftsmanship for lasting protection."
+    },
+    {
+      "name": "Siding Installation & Repair",
+      "keywords": [
+        "siding contractor Warrenton MO",
+        "siding installation",
+        "siding repair",
+        "exterior siding"
+      ],
+      "description": "Professional siding services for residential and commercial properties in Warrenton, MO. Durable siding solutions enhance curb appeal and protect your building."
+    },
+    {
+      "name": "Roof Tear-Offs",
+      "keywords": [
+        "roof tear off Warrenton MO",
+        "roof removal",
+        "old roof removal",
+        "roof replacement"
+      ],
+      "description": "Complete roof tear-off and removal services in Warrenton, MO. We safely remove old roofing materials in preparation for new installation."
+    },
+    {
+      "name": "TPO Roofing",
+      "keywords": [
+        "TPO roof Warrenton MO",
+        "TPO roofing contractor",
+        "flat roof TPO",
+        "commercial TPO roof"
+      ],
+      "description": "Thermoplastic polyolefin (TPO) roofing installation and repair in Warrenton, MO. Energy-efficient and durable TPO systems for commercial properties."
+    },
+    {
+      "name": "Metal Roofing",
+      "keywords": [
+        "metal roof Warrenton MO",
+        "metal roofing contractor",
+        "standing seam metal roof",
+        "metal roof installation"
+      ],
+      "description": "Durable metal roofing solutions for residential and commercial buildings in Warrenton, MO. Long-lasting protection with modern aesthetic appeal."
+    },
+    {
+      "name": "Roof Coatings",
+      "keywords": [
+        "roof coating Warrenton MO",
+        "roof sealant",
+        "reflective roof coating",
+        "roof protection"
+      ],
+      "description": "Protective roof coating services that extend roof life and improve energy efficiency in Warrenton, MO. Affordable protection against weather and UV damage."
+    },
+    {
+      "name": "Drywall Installation",
+      "keywords": [
+        "drywall installation Warrenton MO",
+        "drywall contractor",
+        "interior drywall",
+        "commercial drywall"
+      ],
+      "description": "Professional drywall installation for residential and commercial interiors in Warrenton, MO. Quality craftsmanship for finished walls and ceilings."
+    },
+    {
+      "name": "Drywall Repair",
+      "keywords": [
+        "drywall repair Warrenton MO",
+        "drywall patch repair",
+        "water damage drywall",
+        "interior repair"
+      ],
+      "description": "Expert drywall repair services for water damage, holes, and cracks in Warrenton, MO. Professional finishing for seamless results."
+    }
+  ],
+  "owner_name": "",
+  "client_slug": "cpa-roofing-construction-llc",
+  "form_action": "https://design.pageone.cloud/api/leads/cpa-roofing-construction-llc",
+  "github_repo": "",
+  "company_name": "cpa-roofing-construction-llc",
+  "service_areas": [
+    {
+      "zip": "63383",
+      "city": "",
+      "state": "MO",
+      "primary": true
+    }
+  ],
+  "image_curation": null,
+  "research_brief": null,
+  "competitor_urls": [],
+  "phone_secondary": "",
+  "service_grouping": {
+    "cap": 4,
+    "tier": "basic",
+    "groups": [
+      {
+        "page": "Drywall Installation",
+        "solo": true,
+        "services": [
+          "Drywall Installation"
+        ]
+      },
+      {
+        "page": "Drywall Repair",
+        "solo": true,
+        "services": [
+          "Drywall Repair"
+        ]
+      },
+      {
+        "page": "Roofing Services",
+        "services": [
+          "Commercial Roofing",
+          "Roof Repairs",
+          "Commercial Roof Repairs",
+          "Insurance Roofing Bids",
+          "New Roof Installation",
+          "Roof Tear-Offs",
+          "TPO Roofing",
+          "Metal Roofing",
+          "Roof Coatings"
+        ]
+      },
+      {
+        "page": "Additional Services",
+        "services": [
+          "Siding Installation & Repair",
+          "Roofing Contractor Services"
+        ]
+      }
+    ],
+    "grouped_count": 4,
+    "original_count": 13
+  },
+  "lead_notification_email": "",
+  "lead_notification_phone": "",
+  "google_business_profile_url": ""
+}
