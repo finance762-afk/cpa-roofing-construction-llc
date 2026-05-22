@@ -19,18 +19,24 @@ document.addEventListener('DOMContentLoaded', function() {
 
   /* === Mobile Hamburger Nav Toggle === */
   const hamburger = document.querySelector('.hamburger');
-  const navLinks = document.querySelector('.nav-links');
-  if (hamburger && navLinks) {
+  const mobileMenu = document.querySelector('.mobile-menu');
+  if (hamburger && mobileMenu) {
     hamburger.addEventListener('click', function() {
-      const isOpen = navLinks.classList.toggle('active');
+      const isOpen = mobileMenu.classList.toggle('active');
       hamburger.classList.toggle('active');
       hamburger.setAttribute('aria-expanded', isOpen.toString());
+      if (isOpen) {
+        mobileMenu.removeAttribute('hidden');
+      } else {
+        mobileMenu.setAttribute('hidden', '');
+      }
       document.body.style.overflow = isOpen ? 'hidden' : '';
     });
     // Close nav when clicking a link
-    navLinks.querySelectorAll('a').forEach(function(link) {
+    mobileMenu.querySelectorAll('a').forEach(function(link) {
       link.addEventListener('click', function() {
-        navLinks.classList.remove('active');
+        mobileMenu.classList.remove('active');
+        mobileMenu.setAttribute('hidden', '');
         hamburger.classList.remove('active');
         hamburger.setAttribute('aria-expanded', 'false');
         document.body.style.overflow = '';

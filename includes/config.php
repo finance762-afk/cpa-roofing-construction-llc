@@ -200,5 +200,16 @@ $formAction = 'https://design.pageone.cloud/api/leads/cpa-roofing-construction-l
 $logoUrl     = 'https://db.pageone.cloud/storage/v1/object/public/client-assets/cpa-roofing-construction-llc/logo/1779465444410-tft9zg-Logo_for_client_transparent.png';
 $logoAlt     = 'CPA Roofing & Construction, LLC logo';
 
+// ── Legal / Compliance ─────────────────────────────────────
+$entityType      = 'Limited Liability Company';
+$stateOfFormation = 'Missouri';
+$contactEmail    = $email;
+$contactPhone    = $phone;
+$businessAddress = trim(implode(', ', array_filter([
+    $address['street'],
+    $address['city'],
+    $address['state'] . ' ' . $address['zip'],
+])));
+
 // ── CSS Version (increment on every styles.css change) ──────
-$cssVersion = '1';
+$cssVersion = '2';
