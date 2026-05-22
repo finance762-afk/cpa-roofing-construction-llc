@@ -338,7 +338,7 @@ $schemaMarkup = json_encode([
             </div>
             <div>
               <label for="contact-email">Email <span class="required-star">*</span></label>
-              <input type="email" id="contact-email" name="email" placeholder="you@example.com" required>
+              <input type="email" id="contact-email" name="email" placeholder="your.email@gmail.com" required>
             </div>
           </div>
 

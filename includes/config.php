@@ -10,7 +10,7 @@ $tagline        = 'Your Roof, Our Commitment';
 $industry       = 'roofing';
 
 // ── Contact ─────────────────────────────────────────────────
-$phone          = '(636) 555-0100';
+$phone          = '(636) 207-3849';
 $phoneSecondary = '';
 $email          = 'info@cpa-roofing.com';
 
@@ -180,13 +180,13 @@ $serviceAreas = [
 $socialLinks = [];
 
 // ── Analytics ───────────────────────────────────────────────
-$googleAnalyticsId = 'G-XXXXXXXXXX';
+$googleAnalyticsId = 'G-KN8JQWH5L2';
 
 // ── Brand Colors ────────────────────────────────────────────
 $colors = [
-    'primary'   => '#f55600',
+    'primary'   => '#b71c1c',
     'secondary' => '#f5f5f5',
-    'accent'    => '#005ef5',
+    'accent'    => '#1565c0',
 ];
 
 // ── Business History ────────────────────────────────────────
@@ -212,4 +212,4 @@ $businessAddress = trim(implode(', ', array_filter([
 ])));
 
 // ── CSS Version (increment on every styles.css change) ──────
-$cssVersion = '2';
+$cssVersion = '3';

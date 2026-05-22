@@ -35,17 +35,18 @@ if (!isset($currentPage))     $currentPage     = 'home';
   <meta property="og:site_name" content="<?php echo htmlspecialchars($siteName); ?>">
   <meta property="og:locale" content="en_US">
 
-  <!-- Fonts: Inter Variable (2026 Basic tier) -->
+  <!-- Fonts: 3-font system (heading + body + accent) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400..900&display=swap" rel="stylesheet">
+  <link rel="preload" as="font" href="https://fonts.gstatic.com/s/robotoslab/v34/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjo0oSmb2Rm.woff2" type="font/woff2" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700;800;900&family=Inter:opsz,wght@14..32,400..900&family=Caveat:wght@400;500;600;700&display=swap" rel="stylesheet">
 
   <!-- DNS Prefetch -->
   <link rel="dns-prefetch" href="//db.pageone.cloud">
 
-  <!-- Favicon -->
-  <link rel="icon" type="image/png" href="/assets/images/favicon.png">
-  <link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg">
+  <!-- Favicon (files need to be generated post-design) -->
+  <!-- <link rel="icon" type="image/png" href="/assets/images/favicon.png"> -->
+  <!-- <link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg"> -->
 
   <!-- Stylesheet -->
   <link rel="stylesheet" href="/assets/css/framework.css?v=<?php echo $cssVersion ?? '2'; ?>">
@@ -55,7 +56,7 @@ if (!isset($currentPage))     $currentPage     = 'home';
   <link rel="preload" as="image" href="<?php echo htmlspecialchars($heroImagePreload); ?>">
 <?php endif; ?>
 
-  <!-- Google Analytics (replace G-XXXXXXXXXX with actual ID post-launch) -->
+  <!-- Google Analytics (replace with actual client GA4 ID post-launch) -->
   <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=<?php echo $googleAnalyticsId; ?>"></script>
   <script>
     window.dataLayer = window.dataLayer || [];

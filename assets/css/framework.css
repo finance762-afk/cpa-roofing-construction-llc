@@ -5,12 +5,14 @@
 
 /* === CSS Custom Properties === */
 :root {
-  /* Brand Colors */
-  --color-primary: #f55600;
-  --color-primary-rgb: 245, 86, 0;
+  /* Brand Colors — Red, White & Blue */
+  --color-primary: #b71c1c;
+  --color-primary-rgb: 183, 28, 28;
+  --color-primary-dark: #7f1414;
+  --color-primary-dark-rgb: 127, 20, 20;
   --color-secondary: #f5f5f5;
   --color-secondary-rgb: 245, 245, 245;
-  --color-accent: #005ef5;
+  --color-accent: #1565c0;
   --color-white: #ffffff;
   --color-black: #111111;
   --color-dark: #1a1a2e;
@@ -24,9 +26,10 @@
   --color-danger: #ef4444;
   --color-star: #fbbf24;
 
-  /* Typography — 2026 Inter Variable (Basic tier) */
-  --font-heading: 'Inter', sans-serif;
+  /* Typography — 3-font system */
+  --font-heading: 'Roboto Slab', serif;
   --font-body: 'Inter', sans-serif;
+  --font-accent: 'Caveat', cursive;
 
   /* Fluid type scale */
   --fs-h1: clamp(2.5rem, 5vw, 6rem);
@@ -47,9 +50,9 @@
   --font-size-6xl: 3.75rem;
 
   /* Tinted card backgrounds */
-  --color-card-tint-1: rgba(245, 86, 0, 0.08);
-  --color-card-tint-2: rgba(0, 94, 245, 0.07);
-  --color-card-tint-3: rgba(245, 86, 0, 0.05);
+  --color-card-tint-1: rgba(183, 28, 28, 0.08);
+  --color-card-tint-2: rgba(21, 101, 192, 0.07);
+  --color-card-tint-3: rgba(127, 20, 20, 0.06);
   --color-card-tint-neutral: rgba(245, 247, 250, 1);
 
   /* Spacing Scale */
@@ -173,11 +176,11 @@ section.hero { padding: 0; }
 .site-header {
   position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
   backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
-  background: rgba(245, 86, 0, 0.85);
+  background: rgba(var(--color-primary-rgb), 0.85);
   padding: var(--space-3) 0; transition: all var(--transition-base);
 }
 .site-header.scrolled {
-  background: rgba(245, 86, 0, 0.95);
+  background: rgba(var(--color-primary-rgb), 0.95);
   box-shadow: 0 2px 20px rgba(0,0,0,0.15); padding: var(--space-2) 0;
 }
 .header-inner { display: flex; align-items: center; justify-content: space-between; }
@@ -256,7 +259,7 @@ section.hero { padding: 0; }
 }
 .hero-overlay {
   position: absolute; inset: 0;
-  background: linear-gradient(135deg, rgba(245, 86, 0, 0.85) 0%, rgba(245, 245, 245, 0.75) 100%);
+  background: linear-gradient(135deg, rgba(var(--color-primary-rgb), 0.85) 0%, rgba(var(--color-secondary-rgb), 0.75) 100%);
 }
 .hero-content { position: relative; z-index: 2; text-align: center; max-width: 800px; padding: var(--space-8); }
 .hero-eyebrow {
@@ -504,10 +507,10 @@ section { padding: var(--space-16) 0; }
 }
 .section-title { text-align: center; margin-bottom: var(--space-12); }
 .section-subtitle {
-  font-style: italic; color: var(--color-gray); font-size: var(--font-size-lg);
+  font-family: var(--font-accent); color: var(--color-gray); font-size: var(--font-size-2xl);
   margin-top: var(--space-2);
 }
-.text-accent { color: var(--color-accent); }
+.text-accent { font-family: var(--font-accent); color: var(--color-accent); }
 .hero-answer { max-width: 600px; margin: 0 auto var(--space-4); color: var(--color-gray); font-size: var(--font-size-base); line-height: 1.7; }
 
 /* === Focus Visible === */

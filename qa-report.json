@@ -1,1396 +1,1922 @@
 {
-  "tier": "basic",
-  "tier_config": {
-    "min_css_per_page": 100,
-    "min_techniques": 2,
-    "requires_blog": false
+  "phase7": {
+    "site": "cpa-roofing-construction-llc",
+    "tier": "basic",
+    "grade": "F",
+    "checks": [
+      {
+        "file": "",
+        "check": "Component: includes/head.php",
+        "actual": null,
+        "detail": "",
+        "status": "pass",
+        "section": "FILE STRUCTURE",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "blocker"
+      },
+      {
+        "file": "",
+        "check": "Component: includes/nav.php",
+        "actual": null,
+        "detail": "",
+        "status": "pass",
+        "section": "FILE STRUCTURE",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "blocker"
+      },
+      {
+        "file": "",
+        "check": "Component: includes/footer.php",
+        "actual": null,
+        "detail": "",
+        "status": "pass",
+        "section": "FILE STRUCTURE",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "blocker"
+      },
+      {
+        "file": "",
+        "check": "Root file: sitemap.xml",
+        "actual": null,
+        "detail": "",
+        "status": "pass",
+        "section": "FILE STRUCTURE",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "blocker"
+      },
+      {
+        "file": "",
+        "check": "Root file: robots.txt",
+        "actual": null,
+        "detail": "",
+        "status": "pass",
+        "section": "FILE STRUCTURE",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "blocker"
+      },
+      {
+        "file": "",
+        "check": "Root file: .htaccess",
+        "actual": null,
+        "detail": "",
+        "status": "pass",
+        "section": "FILE STRUCTURE",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "blocker"
+      },
+      {
+        "file": "",
+        "check": "Root file: 404.php",
+        "actual": null,
+        "detail": "",
+        "status": "pass",
+        "section": "FILE STRUCTURE",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "blocker"
+      },
+      {
+        "file": "",
+        "check": "Root file: thank-you.php",
+        "actual": null,
+        "detail": "",
+        "status": "pass",
+        "section": "FILE STRUCTURE",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "blocker"
+      },
+      {
+        "file": "",
+        "check": "Root file: sitemap-images.xml",
+        "actual": null,
+        "detail": "",
+        "status": "pass",
+        "section": "FILE STRUCTURE",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "warning"
+      },
+      {
+        "file": "",
+        "check": "Directory: assets/css/",
+        "actual": null,
+        "detail": "",
+        "status": "pass",
+        "section": "FILE STRUCTURE",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "blocker"
+      },
+      {
+        "file": "",
+        "check": "Directory: assets/js/",
+        "actual": null,
+        "detail": "",
+        "status": "pass",
+        "section": "FILE STRUCTURE",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "blocker"
+      },
+      {
+        "file": "",
+        "check": "Directory: assets/images/",
+        "actual": null,
+        "detail": "",
+        "status": "pass",
+        "section": "FILE STRUCTURE",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "info"
+      },
+      {
+        "file": "",
+        "check": "Directory: assets/svg/",
+        "actual": null,
+        "detail": "No SVG directory — dividers may be inline",
+        "status": "warn",
+        "section": "FILE STRUCTURE",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "warning"
+      },
+      {
+        "file": "",
+        "check": "JS split: animations.js + effects.js",
+        "actual": null,
+        "detail": "",
+        "status": "pass",
+        "section": "FILE STRUCTURE",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "warning"
+      },
+      {
+        "file": "",
+        "check": "AEO file: llms.txt",
+        "actual": null,
+        "detail": "",
+        "status": "pass",
+        "section": "FILE STRUCTURE",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "blocker"
+      },
+      {
+        "file": "",
+        "check": "AEO file: llms-full.txt",
+        "actual": null,
+        "detail": "",
+        "status": "pass",
+        "section": "FILE STRUCTURE",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "blocker"
+      },
+      {
+        "file": "index.php",
+        "check": "Inline <style> block",
+        "actual": "335",
+        "detail": "335 CSS lines in 1 block(s)",
+        "status": "pass",
+        "section": "PHP STANDARDS",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "blocker"
+      },
+      {
+        "file": "404.php",
+        "check": "Inline <style> block",
+        "actual": "68",
+        "detail": "68 CSS lines in 1 block(s)",
+        "status": "pass",
+        "section": "PHP STANDARDS",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "blocker"
+      },
+      {
+        "file": "thank-you.php",
+        "check": "Inline <style> block",
+        "actual": "111",
+        "detail": "111 CSS lines in 1 block(s)",
+        "status": "pass",
+        "section": "PHP STANDARDS",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "blocker"
+      },
+      {
+        "file": "privacy-policy/index.php",
+        "check": "Inline <style> block",
+        "actual": "106",
+        "detail": "106 CSS lines in 1 block(s)",
+        "status": "pass",
+        "section": "PHP STANDARDS",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "blocker"
+      },
+      {
+        "file": "terms/index.php",
+        "check": "Inline <style> block",
+        "actual": "79",
+        "detail": "79 CSS lines in 1 block(s)",
+        "status": "pass",
+        "section": "PHP STANDARDS",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "blocker"
+      },
+      {
+        "file": "services/index.php",
+        "check": "Inline <style> block",
+        "actual": "68",
+        "detail": "68 CSS lines in 1 block(s)",
+        "status": "pass",
+        "section": "PHP STANDARDS",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "blocker"
+      },
+      {
+        "file": "about/index.php",
+        "check": "Inline <style> block",
+        "actual": "259",
+        "detail": "259 CSS lines in 1 block(s)",
+        "status": "pass",
+        "section": "PHP STANDARDS",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "blocker"
+      },
+      {
+        "file": "contact/index.php",
+        "check": "Inline <style> block",
+        "actual": "245",
+        "detail": "245 CSS lines in 1 block(s)",
+        "status": "pass",
+        "section": "PHP STANDARDS",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "blocker"
+      },
+      {
+        "file": "cookie-policy/index.php",
+        "check": "Inline <style> block",
+        "actual": "113",
+        "detail": "113 CSS lines in 1 block(s)",
+        "status": "pass",
+        "section": "PHP STANDARDS",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "blocker"
+      },
+      {
+        "file": "accessibility/index.php",
+        "check": "Inline <style> block",
+        "actual": "79",
+        "detail": "79 CSS lines in 1 block(s)",
+        "status": "pass",
+        "section": "PHP STANDARDS",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "blocker"
+      },
+      {
+        "file": "service-area/index.php",
+        "check": "Inline <style> block",
+        "actual": "247",
+        "detail": "247 CSS lines in 1 block(s)",
+        "status": "pass",
+        "section": "PHP STANDARDS",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "blocker"
+      },
+      {
+        "file": "services/drywall-repair/index.php",
+        "check": "Inline <style> block",
+        "actual": "243",
+        "detail": "243 CSS lines in 1 block(s)",
+        "status": "pass",
+        "section": "PHP STANDARDS",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "blocker"
+      },
+      {
+        "file": "services/drywall-installation/index.php",
+        "check": "Inline <style> block",
+        "actual": "237",
+        "detail": "237 CSS lines in 1 block(s)",
+        "status": "pass",
+        "section": "PHP STANDARDS",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "blocker"
+      },
+      {
+        "file": "services/additional-services/index.php",
+        "check": "Inline <style> block",
+        "actual": "220",
+        "detail": "220 CSS lines in 1 block(s)",
+        "status": "pass",
+        "section": "PHP STANDARDS",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "blocker"
+      },
+      {
+        "file": "services/roofing-services/index.php",
+        "check": "Inline <style> block",
+        "actual": "326",
+        "detail": "326 CSS lines in 1 block(s)",
+        "status": "pass",
+        "section": "PHP STANDARDS",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "blocker"
+      },
+      {
+        "file": "index.php",
+        "check": "Basic tier CSS bar",
+        "actual": "917",
+        "detail": "917 lines (335 inline + 582 external, need ≥100)",
+        "status": "pass",
+        "section": "PHP STANDARDS",
+        "expected": "100",
+        "fix_hint": "",
+        "severity": "blocker"
+      },
+      {
+        "file": "about/index.php",
+        "check": "Basic tier CSS bar",
+        "actual": "841",
+        "detail": "841 lines (259 inline + 582 external, need ≥100)",
+        "status": "pass",
+        "section": "PHP STANDARDS",
+        "expected": "100",
+        "fix_hint": "",
+        "severity": "blocker"
+      },
+      {
+        "file": "services/index.php",
+        "check": "Basic tier CSS bar",
+        "actual": "650",
+        "detail": "650 lines (68 inline + 582 external, need ≥100)",
+        "status": "pass",
+        "section": "PHP STANDARDS",
+        "expected": "100",
+        "fix_hint": "",
+        "severity": "blocker"
+      },
+      {
+        "file": "contact/index.php",
+        "check": "Basic tier CSS bar",
+        "actual": "827",
+        "detail": "827 lines (245 inline + 582 external, need ≥100)",
+        "status": "pass",
+        "section": "PHP STANDARDS",
+        "expected": "100",
+        "fix_hint": "",
+        "severity": "blocker"
+      },
+      {
+        "file": "",
+        "check": "Basic tier techniques",
+        "actual": "5",
+        "detail": "5 distinct techniques detected (need ≥2)",
+        "status": "pass",
+        "section": "PHP STANDARDS",
+        "expected": "2",
+        "fix_hint": "",
+        "severity": "blocker"
+      },
+      {
+        "file": "index.php",
+        "check": "Single H1",
+        "actual": null,
+        "detail": "",
+        "status": "pass",
+        "section": "SEO COMPLIANCE",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "blocker"
+      },
+      {
+        "file": "index.php",
+        "check": "JSON-LD schema",
+        "actual": null,
+        "detail": "",
+        "status": "pass",
+        "section": "SEO COMPLIANCE",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "blocker"
+      },
+      {
+        "file": "index.php",
+        "check": "Canonical tag (via head.php)",
+        "actual": null,
+        "detail": "",
+        "status": "pass",
+        "section": "SEO COMPLIANCE",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "blocker"
+      },
+      {
+        "file": "privacy-policy/index.php",
+        "check": "Single H1",
+        "actual": null,
+        "detail": "",
+        "status": "pass",
+        "section": "SEO COMPLIANCE",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "blocker"
+      },
+      {
+        "file": "privacy-policy/index.php",
+        "check": "JSON-LD schema",
+        "actual": null,
+        "detail": "",
+        "status": "pass",
+        "section": "SEO COMPLIANCE",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "blocker"
+      },
+      {
+        "file": "privacy-policy/index.php",
+        "check": "Canonical tag (via head.php)",
+        "actual": null,
+        "detail": "",
+        "status": "pass",
+        "section": "SEO COMPLIANCE",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "blocker"
+      },
+      {
+        "file": "terms/index.php",
+        "check": "Single H1",
+        "actual": null,
+        "detail": "",
+        "status": "pass",
+        "section": "SEO COMPLIANCE",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "blocker"
+      },
+      {
+        "file": "terms/index.php",
+        "check": "JSON-LD schema",
+        "actual": null,
+        "detail": "",
+        "status": "pass",
+        "section": "SEO COMPLIANCE",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "blocker"
+      },
+      {
+        "file": "terms/index.php",
+        "check": "Canonical tag (via head.php)",
+        "actual": null,
+        "detail": "",
+        "status": "pass",
+        "section": "SEO COMPLIANCE",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "blocker"
+      },
+      {
+        "file": "services/index.php",
+        "check": "Single H1",
+        "actual": null,
+        "detail": "",
+        "status": "pass",
+        "section": "SEO COMPLIANCE",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "blocker"
+      },
+      {
+        "file": "services/index.php",
+        "check": "JSON-LD schema",
+        "actual": null,
+        "detail": "",
+        "status": "pass",
+        "section": "SEO COMPLIANCE",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "blocker"
+      },
+      {
+        "file": "services/index.php",
+        "check": "Canonical tag (via head.php)",
+        "actual": null,
+        "detail": "",
+        "status": "pass",
+        "section": "SEO COMPLIANCE",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "blocker"
+      },
+      {
+        "file": "about/index.php",
+        "check": "Single H1",
+        "actual": null,
+        "detail": "",
+        "status": "pass",
+        "section": "SEO COMPLIANCE",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "blocker"
+      },
+      {
+        "file": "about/index.php",
+        "check": "JSON-LD schema",
+        "actual": null,
+        "detail": "",
+        "status": "pass",
+        "section": "SEO COMPLIANCE",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "blocker"
+      },
+      {
+        "file": "about/index.php",
+        "check": "Canonical tag (via head.php)",
+        "actual": null,
+        "detail": "",
+        "status": "pass",
+        "section": "SEO COMPLIANCE",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "blocker"
+      },
+      {
+        "file": "contact/index.php",
+        "check": "Single H1",
+        "actual": null,
+        "detail": "",
+        "status": "pass",
+        "section": "SEO COMPLIANCE",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "blocker"
+      },
+      {
+        "file": "contact/index.php",
+        "check": "JSON-LD schema",
+        "actual": null,
+        "detail": "",
+        "status": "pass",
+        "section": "SEO COMPLIANCE",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "blocker"
+      },
+      {
+        "file": "contact/index.php",
+        "check": "Canonical tag (via head.php)",
+        "actual": null,
+        "detail": "",
+        "status": "pass",
+        "section": "SEO COMPLIANCE",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "blocker"
+      },
+      {
+        "file": "cookie-policy/index.php",
+        "check": "Single H1",
+        "actual": null,
+        "detail": "",
+        "status": "pass",
+        "section": "SEO COMPLIANCE",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "blocker"
+      },
+      {
+        "file": "cookie-policy/index.php",
+        "check": "JSON-LD schema",
+        "actual": null,
+        "detail": "",
+        "status": "pass",
+        "section": "SEO COMPLIANCE",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "blocker"
+      },
+      {
+        "file": "cookie-policy/index.php",
+        "check": "Canonical tag (via head.php)",
+        "actual": null,
+        "detail": "",
+        "status": "pass",
+        "section": "SEO COMPLIANCE",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "blocker"
+      },
+      {
+        "file": "accessibility/index.php",
+        "check": "Single H1",
+        "actual": null,
+        "detail": "",
+        "status": "pass",
+        "section": "SEO COMPLIANCE",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "blocker"
+      },
+      {
+        "file": "accessibility/index.php",
+        "check": "JSON-LD schema",
+        "actual": null,
+        "detail": "",
+        "status": "pass",
+        "section": "SEO COMPLIANCE",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "blocker"
+      },
+      {
+        "file": "accessibility/index.php",
+        "check": "Canonical tag (via head.php)",
+        "actual": null,
+        "detail": "",
+        "status": "pass",
+        "section": "SEO COMPLIANCE",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "blocker"
+      },
+      {
+        "file": "service-area/index.php",
+        "check": "Single H1",
+        "actual": null,
+        "detail": "",
+        "status": "pass",
+        "section": "SEO COMPLIANCE",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "blocker"
+      },
+      {
+        "file": "service-area/index.php",
+        "check": "JSON-LD schema",
+        "actual": null,
+        "detail": "",
+        "status": "pass",
+        "section": "SEO COMPLIANCE",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "blocker"
+      },
+      {
+        "file": "service-area/index.php",
+        "check": "Canonical tag (via head.php)",
+        "actual": null,
+        "detail": "",
+        "status": "pass",
+        "section": "SEO COMPLIANCE",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "blocker"
+      },
+      {
+        "file": "services/drywall-repair/index.php",
+        "check": "Single H1",
+        "actual": null,
+        "detail": "",
+        "status": "pass",
+        "section": "SEO COMPLIANCE",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "blocker"
+      },
+      {
+        "file": "services/drywall-repair/index.php",
+        "check": "JSON-LD schema",
+        "actual": null,
+        "detail": "",
+        "status": "pass",
+        "section": "SEO COMPLIANCE",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "blocker"
+      },
+      {
+        "file": "services/drywall-repair/index.php",
+        "check": "Canonical tag (via head.php)",
+        "actual": null,
+        "detail": "",
+        "status": "pass",
+        "section": "SEO COMPLIANCE",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "blocker"
+      },
+      {
+        "file": "services/drywall-installation/index.php",
+        "check": "Single H1",
+        "actual": null,
+        "detail": "",
+        "status": "pass",
+        "section": "SEO COMPLIANCE",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "blocker"
+      },
+      {
+        "file": "services/drywall-installation/index.php",
+        "check": "JSON-LD schema",
+        "actual": null,
+        "detail": "",
+        "status": "pass",
+        "section": "SEO COMPLIANCE",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "blocker"
+      },
+      {
+        "file": "services/drywall-installation/index.php",
+        "check": "Canonical tag (via head.php)",
+        "actual": null,
+        "detail": "",
+        "status": "pass",
+        "section": "SEO COMPLIANCE",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "blocker"
+      },
+      {
+        "file": "services/additional-services/index.php",
+        "check": "Single H1",
+        "actual": null,
+        "detail": "",
+        "status": "pass",
+        "section": "SEO COMPLIANCE",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "blocker"
+      },
+      {
+        "file": "services/additional-services/index.php",
+        "check": "JSON-LD schema",
+        "actual": null,
+        "detail": "",
+        "status": "pass",
+        "section": "SEO COMPLIANCE",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "blocker"
+      },
+      {
+        "file": "services/additional-services/index.php",
+        "check": "Canonical tag (via head.php)",
+        "actual": null,
+        "detail": "",
+        "status": "pass",
+        "section": "SEO COMPLIANCE",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "blocker"
+      },
+      {
+        "file": "services/roofing-services/index.php",
+        "check": "Single H1",
+        "actual": null,
+        "detail": "",
+        "status": "pass",
+        "section": "SEO COMPLIANCE",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "blocker"
+      },
+      {
+        "file": "services/roofing-services/index.php",
+        "check": "JSON-LD schema",
+        "actual": null,
+        "detail": "",
+        "status": "pass",
+        "section": "SEO COMPLIANCE",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "blocker"
+      },
+      {
+        "file": "services/roofing-services/index.php",
+        "check": "Canonical tag (via head.php)",
+        "actual": null,
+        "detail": "",
+        "status": "pass",
+        "section": "SEO COMPLIANCE",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "blocker"
+      },
+      {
+        "file": "",
+        "check": "Meta description template in head.php",
+        "actual": null,
+        "detail": "",
+        "status": "pass",
+        "section": "SEO COMPLIANCE",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "blocker"
+      },
+      {
+        "file": "",
+        "check": "llms.txt content",
+        "actual": null,
+        "detail": "50 lines",
+        "status": "pass",
+        "section": "AEO COMPLIANCE",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "warning"
+      },
+      {
+        "file": "",
+        "check": "llms-full.txt content",
+        "actual": null,
+        "detail": "106 lines",
+        "status": "pass",
+        "section": "AEO COMPLIANCE",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "warning"
+      },
+      {
+        "file": "",
+        "check": "Nav scroll transition",
+        "actual": null,
+        "detail": "No scroll-based nav transition detected",
+        "status": "fail",
+        "section": "NAVIGATION & LAYOUT",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "warning"
+      },
+      {
+        "file": "",
+        "check": "Mobile hamburger menu",
+        "actual": null,
+        "detail": "",
+        "status": "pass",
+        "section": "NAVIGATION & LAYOUT",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "warning"
+      },
+      {
+        "file": "",
+        "check": "Sticky mobile CTA bar",
+        "actual": null,
+        "detail": "No sticky mobile CTA bar detected",
+        "status": "warn",
+        "section": "NAVIGATION & LAYOUT",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "warning"
+      },
+      {
+        "file": "",
+        "check": "Click-to-call (tel: links)",
+        "actual": null,
+        "detail": "",
+        "status": "pass",
+        "section": "NAVIGATION & LAYOUT",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "blocker"
+      },
+      {
+        "file": "",
+        "check": "SVG section dividers",
+        "actual": null,
+        "detail": "Found ~20 SVG/divider elements",
+        "status": "pass",
+        "section": "VISUAL QUALITY",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "warning"
+      },
+      {
+        "file": "",
+        "check": "Floating decorative accents",
+        "actual": null,
+        "detail": "",
+        "status": "pass",
+        "section": "VISUAL QUALITY",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "warning"
+      },
+      {
+        "file": "",
+        "check": "Asymmetric/broken-grid layout",
+        "actual": null,
+        "detail": "",
+        "status": "pass",
+        "section": "VISUAL QUALITY",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "warning"
+      },
+      {
+        "file": "",
+        "check": "Tinted card backgrounds",
+        "actual": null,
+        "detail": "",
+        "status": "pass",
+        "section": "VISUAL QUALITY",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "warning"
+      },
+      {
+        "file": "",
+        "check": "Typography",
+        "actual": null,
+        "detail": "May use only 1 font family — needs heading + body minimum",
+        "status": "warn",
+        "section": "VISUAL QUALITY",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "warning"
+      },
+      {
+        "file": "",
+        "check": "text-wrap: balance on headings",
+        "actual": null,
+        "detail": "",
+        "status": "pass",
+        "section": "VISUAL QUALITY",
+        "expected": null,
+        "fix_hint": "Add `text-wrap: balance;` to heading selectors",
+        "severity": "warning"
+      },
+      {
+        "file": "",
+        "check": "Images with loading='lazy'",
+        "actual": null,
+        "detail": "28 violations in 7 file(s): services/drywall-repair/index.php, index.php, services/drywall-installation/index.php, services/additional-services/index.php, about/index.php",
+        "status": "fail",
+        "section": "IMAGES",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "warning"
+      },
+      {
+        "file": "",
+        "check": "Images with width/height",
+        "actual": null,
+        "detail": "30 violations in 9 file(s): services/drywall-repair/index.php, index.php, includes/footer.php, services/drywall-installation/index.php, services/additional-services/index.php",
+        "status": "fail",
+        "section": "IMAGES",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "warning"
+      },
+      {
+        "file": "",
+        "check": "Images with descriptive alt",
+        "actual": null,
+        "detail": "30 violations in 9 file(s): services/drywall-repair/index.php, index.php, includes/footer.php, services/drywall-installation/index.php, services/additional-services/index.php",
+        "status": "fail",
+        "section": "IMAGES",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "warning"
+      },
+      {
+        "file": "",
+        "check": "Image resolution",
+        "actual": null,
+        "detail": "",
+        "status": "pass",
+        "section": "IMAGES",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "warning"
+      },
+      {
+        "file": "",
+        "check": "Page One Insights dofollow link",
+        "actual": null,
+        "detail": "",
+        "status": "pass",
+        "section": "FOOTER & CONVERSION",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "warning"
+      },
+      {
+        "file": "",
+        "check": "Footer NAP",
+        "actual": null,
+        "detail": "Missing: phone",
+        "status": "fail",
+        "section": "FOOTER & CONVERSION",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "blocker"
+      },
+      {
+        "file": "",
+        "check": "No formsubmit.co usage",
+        "actual": null,
+        "detail": "",
+        "status": "pass",
+        "section": "FOOTER & CONVERSION",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "blocker"
+      },
+      {
+        "file": "",
+        "check": "Lead endpoint with correct slug",
+        "actual": null,
+        "detail": "Slug: cpa-roofing-construction-llc",
+        "status": "pass",
+        "section": "FOOTER & CONVERSION",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "blocker"
+      },
+      {
+        "file": "",
+        "check": "Form honeypot field",
+        "actual": null,
+        "detail": "",
+        "status": "pass",
+        "section": "FOOTER & CONVERSION",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "warning"
+      },
+      {
+        "file": "",
+        "check": "All H2s are questions",
+        "actual": null,
+        "detail": "",
+        "status": "pass",
+        "section": "AEO CONTENT",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "blocker"
+      },
+      {
+        "file": "",
+        "check": "Speakable classes exist",
+        "actual": null,
+        "detail": "",
+        "status": "pass",
+        "section": "AEO SCHEMA",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "blocker"
+      },
+      {
+        "file": "",
+        "check": "GPTBot readable",
+        "actual": null,
+        "detail": "",
+        "status": "pass",
+        "section": "AEO CRAWLABILITY",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "blocker"
+      },
+      {
+        "file": "",
+        "check": "NAP consistency",
+        "actual": null,
+        "detail": "Footer phone doesn't match config ((636) 555-0100)",
+        "status": "fail",
+        "section": "AEO ENTITY",
+        "expected": null,
+        "fix_hint": "Ensure footer phone matches config.php exactly",
+        "severity": "blocker"
+      },
+      {
+        "file": "",
+        "check": "No carousel libraries",
+        "actual": null,
+        "detail": "Carousel JS found in: assets/js/main.js",
+        "status": "fail",
+        "section": "DESIGN",
+        "expected": null,
+        "fix_hint": "Replace Swiper/Slick with CSS scroll-snap or static grid",
+        "severity": "warning"
+      },
+      {
+        "file": "",
+        "check": "Reduced motion respected",
+        "actual": null,
+        "detail": "",
+        "status": "pass",
+        "section": "DESIGN",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "warning"
+      },
+      {
+        "file": "",
+        "check": "Variable fonts loaded",
+        "actual": null,
+        "detail": "",
+        "status": "pass",
+        "section": "DESIGN",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "warning"
+      },
+      {
+        "file": "",
+        "check": "Industry schema subtype",
+        "actual": null,
+        "detail": "",
+        "status": "pass",
+        "section": "AEO SCHEMA",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "info"
+      },
+      {
+        "file": "",
+        "check": "llms.txt complete",
+        "actual": null,
+        "detail": "Missing sections: Most Citable Pages",
+        "status": "fail",
+        "section": "AEO CONTENT",
+        "expected": null,
+        "fix_hint": "Add missing sections to llms.txt",
+        "severity": "info"
+      },
+      {
+        "file": "",
+        "check": "Hero answer word count",
+        "actual": null,
+        "detail": "40 words",
+        "status": "pass",
+        "section": "AEO CONTENT",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "blocker"
+      },
+      {
+        "file": "",
+        "check": "Sanitized PHP input",
+        "actual": null,
+        "detail": "",
+        "status": "pass",
+        "section": "SECURITY",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "blocker"
+      },
+      {
+        "file": "",
+        "check": "Image dimensions present",
+        "actual": null,
+        "detail": "28 img(s) missing attributes: index.php: <?= htmlspecialchars($svc[ missing width,height,alt; index.php: <?= htmlspecialchars($aboutImage) ?> missing width,height,alt; services/index.php: <?= htmlspecialchars($svc[ missing width,height,alt",
+        "status": "fail",
+        "section": "IMAGES",
+        "expected": null,
+        "fix_hint": "Add width, height, and alt to all <img> tags",
+        "severity": "warning"
+      },
+      {
+        "file": "",
+        "check": "Fonts preconnect",
+        "actual": null,
+        "detail": "",
+        "status": "pass",
+        "section": "PERFORMANCE",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "warning"
+      }
+    ],
+    "passed": false,
+    "summary": {
+      "warn": 3,
+      "total": 110,
+      "failed": 9,
+      "passed": 98,
+      "blockers_failed": 2,
+      "warnings_failed": 9
+    },
+    "attempts": [
+      {
+        "grade": "F",
+        "passed": false,
+        "attempt": 0,
+        "fix_cost_usd": 0,
+        "fix_duration_seconds": 0
+      },
+      {
+        "grade": "F",
+        "passed": false,
+        "attempt": 1,
+        "fix_cost_usd": 1.06270395,
+        "fix_duration_seconds": 241
+      }
+    ],
+    "failures": [
+      {
+        "file": "",
+        "check": "Nav scroll transition",
+        "actual": null,
+        "detail": "No scroll-based nav transition detected",
+        "status": "fail",
+        "section": "NAVIGATION & LAYOUT",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "warning"
+      },
+      {
+        "file": "",
+        "check": "Images with loading='lazy'",
+        "actual": null,
+        "detail": "28 violations in 7 file(s): services/drywall-repair/index.php, index.php, services/drywall-installation/index.php, services/additional-services/index.php, about/index.php",
+        "status": "fail",
+        "section": "IMAGES",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "warning"
+      },
+      {
+        "file": "",
+        "check": "Images with width/height",
+        "actual": null,
+        "detail": "30 violations in 9 file(s): services/drywall-repair/index.php, index.php, includes/footer.php, services/drywall-installation/index.php, services/additional-services/index.php",
+        "status": "fail",
+        "section": "IMAGES",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "warning"
+      },
+      {
+        "file": "",
+        "check": "Images with descriptive alt",
+        "actual": null,
+        "detail": "30 violations in 9 file(s): services/drywall-repair/index.php, index.php, includes/footer.php, services/drywall-installation/index.php, services/additional-services/index.php",
+        "status": "fail",
+        "section": "IMAGES",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "warning"
+      },
+      {
+        "file": "",
+        "check": "Footer NAP",
+        "actual": null,
+        "detail": "Missing: phone",
+        "status": "fail",
+        "section": "FOOTER & CONVERSION",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "blocker"
+      },
+      {
+        "file": "",
+        "check": "NAP consistency",
+        "actual": null,
+        "detail": "Footer phone doesn't match config ((636) 555-0100)",
+        "status": "fail",
+        "section": "AEO ENTITY",
+        "expected": null,
+        "fix_hint": "Ensure footer phone matches config.php exactly",
+        "severity": "blocker"
+      },
+      {
+        "file": "",
+        "check": "No carousel libraries",
+        "actual": null,
+        "detail": "Carousel JS found in: assets/js/main.js",
+        "status": "fail",
+        "section": "DESIGN",
+        "expected": null,
+        "fix_hint": "Replace Swiper/Slick with CSS scroll-snap or static grid",
+        "severity": "warning"
+      },
+      {
+        "file": "",
+        "check": "llms.txt complete",
+        "actual": null,
+        "detail": "Missing sections: Most Citable Pages",
+        "status": "fail",
+        "section": "AEO CONTENT",
+        "expected": null,
+        "fix_hint": "Add missing sections to llms.txt",
+        "severity": "info"
+      },
+      {
+        "file": "",
+        "check": "Image dimensions present",
+        "actual": null,
+        "detail": "28 img(s) missing attributes: index.php: <?= htmlspecialchars($svc[ missing width,height,alt; index.php: <?= htmlspecialchars($aboutImage) ?> missing width,height,alt; services/index.php: <?= htmlspecialchars($svc[ missing width,height,alt",
+        "status": "fail",
+        "section": "IMAGES",
+        "expected": null,
+        "fix_hint": "Add width, height, and alt to all <img> tags",
+        "severity": "warning"
+      }
+    ],
+    "warnings": [
+      {
+        "file": "",
+        "check": "Directory: assets/svg/",
+        "actual": null,
+        "detail": "No SVG directory — dividers may be inline",
+        "status": "warn",
+        "section": "FILE STRUCTURE",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "warning"
+      },
+      {
+        "file": "",
+        "check": "Sticky mobile CTA bar",
+        "actual": null,
+        "detail": "No sticky mobile CTA bar detected",
+        "status": "warn",
+        "section": "NAVIGATION & LAYOUT",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "warning"
+      },
+      {
+        "file": "",
+        "check": "Typography",
+        "actual": null,
+        "detail": "May use only 1 font family — needs heading + body minimum",
+        "status": "warn",
+        "section": "VISUAL QUALITY",
+        "expected": null,
+        "fix_hint": "",
+        "severity": "warning"
+      }
+    ],
+    "score_pct": 94,
+    "tier_config": {
+      "requires_blog": false,
+      "min_techniques": 2,
+      "min_css_per_page": 100
+    },
+    "expected_slug": "cpa-roofing-construction-llc",
+    "total_attempts": 1,
+    "total_fix_cost_usd": 1.06270395,
+    "techniques_detected": [
+      {
+        "name": "backdrop_filter",
+        "matches": 7,
+        "description": "Glassmorphism / frosted glass effects"
+      },
+      {
+        "name": "keyframe_animation",
+        "matches": 1,
+        "description": "Custom keyframe animations"
+      },
+      {
+        "name": "complex_filter",
+        "matches": 7,
+        "description": "CSS filter effects"
+      },
+      {
+        "name": "text_wrap_balance",
+        "matches": 18,
+        "description": "Modern text wrapping"
+      },
+      {
+        "name": "logical_properties",
+        "matches": 1,
+        "description": "Logical properties (inline/block)"
+      }
+    ],
+    "total_fix_duration_seconds": 241
   },
-  "site": "cpa-roofing-construction-llc",
-  "expected_slug": "cpa-roofing-construction-llc",
-  "passed": false,
-  "grade": "F",
-  "score_pct": 94,
-  "summary": {
-    "total": 110,
-    "passed": 98,
-    "failed": 9,
-    "warn": 3,
-    "blockers_failed": 2,
-    "warnings_failed": 9
+  "qaCheck": {
+    "score": "F",
+    "failed": 13,
+    "issues": [
+      {
+        "line": 341,
+        "page": "contact/index.php",
+        "issue": "Placeholder text: example.com",
+        "severity": "critical"
+      },
+      {
+        "line": 13,
+        "page": "includes/config.php",
+        "issue": "Placeholder text: 555-0100",
+        "severity": "critical"
+      },
+      {
+        "line": 58,
+        "page": "includes/head.php",
+        "issue": "Placeholder text: XXXXXXXXXX",
+        "severity": "critical"
+      },
+      {
+        "page": "about/index.php",
+        "issue": "2 image(s) missing alt text",
+        "severity": "warning"
+      },
+      {
+        "page": "includes/footer.php",
+        "issue": "1 image(s) missing alt text",
+        "severity": "warning"
+      },
+      {
+        "page": "includes/nav.php",
+        "issue": "1 image(s) missing alt text",
+        "severity": "warning"
+      },
+      {
+        "page": "index.php",
+        "issue": "2 image(s) missing alt text",
+        "severity": "warning"
+      },
+      {
+        "page": "services/additional-services/index.php",
+        "issue": "3 image(s) missing alt text",
+        "severity": "warning"
+      },
+      {
+        "page": "services/drywall-installation/index.php",
+        "issue": "5 image(s) missing alt text",
+        "severity": "warning"
+      },
+      {
+        "page": "services/drywall-repair/index.php",
+        "issue": "5 image(s) missing alt text",
+        "severity": "warning"
+      },
+      {
+        "page": "services/index.php",
+        "issue": "1 image(s) missing alt text",
+        "severity": "warning"
+      },
+      {
+        "page": "services/roofing-services/index.php",
+        "issue": "10 image(s) missing alt text",
+        "severity": "warning"
+      },
+      {
+        "page": "includes/head.php",
+        "issue": "Broken internal links: /assets/images/favicon.png, /assets/images/favicon.svg",
+        "severity": "warning"
+      }
+    ],
+    "passed": 113,
+    "attempts": [
+      {
+        "score": "F",
+        "failed": 13,
+        "issues": [
+          {
+            "line": 341,
+            "page": "contact/index.php",
+            "issue": "Placeholder text: example.com",
+            "severity": "critical"
+          },
+          {
+            "line": 13,
+            "page": "includes/config.php",
+            "issue": "Placeholder text: 555-0100",
+            "severity": "critical"
+          },
+          {
+            "line": 58,
+            "page": "includes/head.php",
+            "issue": "Placeholder text: XXXXXXXXXX",
+            "severity": "critical"
+          },
+          {
+            "page": "about/index.php",
+            "issue": "2 image(s) missing alt text",
+            "severity": "warning"
+          },
+          {
+            "page": "includes/footer.php",
+            "issue": "1 image(s) missing alt text",
+            "severity": "warning"
+          },
+          {
+            "page": "includes/nav.php",
+            "issue": "1 image(s) missing alt text",
+            "severity": "warning"
+          },
+          {
+            "page": "index.php",
+            "issue": "2 image(s) missing alt text",
+            "severity": "warning"
+          },
+          {
+            "page": "services/additional-services/index.php",
+            "issue": "3 image(s) missing alt text",
+            "severity": "warning"
+          },
+          {
+            "page": "services/drywall-installation/index.php",
+            "issue": "5 image(s) missing alt text",
+            "severity": "warning"
+          },
+          {
+            "page": "services/drywall-repair/index.php",
+            "issue": "5 image(s) missing alt text",
+            "severity": "warning"
+          },
+          {
+            "page": "services/index.php",
+            "issue": "1 image(s) missing alt text",
+            "severity": "warning"
+          },
+          {
+            "page": "services/roofing-services/index.php",
+            "issue": "10 image(s) missing alt text",
+            "severity": "warning"
+          },
+          {
+            "page": "includes/head.php",
+            "issue": "Broken internal links: /assets/images/favicon.png, /assets/images/favicon.svg",
+            "severity": "warning"
+          }
+        ],
+        "passed": 113,
+        "attempt": 0
+      },
+      {
+        "score": "F",
+        "failed": 13,
+        "issues": [
+          {
+            "line": 341,
+            "page": "contact/index.php",
+            "issue": "Placeholder text: example.com",
+            "severity": "critical"
+          },
+          {
+            "line": 13,
+            "page": "includes/config.php",
+            "issue": "Placeholder text: 555-0100",
+            "severity": "critical"
+          },
+          {
+            "line": 58,
+            "page": "includes/head.php",
+            "issue": "Placeholder text: XXXXXXXXXX",
+            "severity": "critical"
+          },
+          {
+            "page": "about/index.php",
+            "issue": "2 image(s) missing alt text",
+            "severity": "warning"
+          },
+          {
+            "page": "includes/footer.php",
+            "issue": "1 image(s) missing alt text",
+            "severity": "warning"
+          },
+          {
+            "page": "includes/nav.php",
+            "issue": "1 image(s) missing alt text",
+            "severity": "warning"
+          },
+          {
+            "page": "index.php",
+            "issue": "2 image(s) missing alt text",
+            "severity": "warning"
+          },
+          {
+            "page": "services/additional-services/index.php",
+            "issue": "3 image(s) missing alt text",
+            "severity": "warning"
+          },
+          {
+            "page": "services/drywall-installation/index.php",
+            "issue": "5 image(s) missing alt text",
+            "severity": "warning"
+          },
+          {
+            "page": "services/drywall-repair/index.php",
+            "issue": "5 image(s) missing alt text",
+            "severity": "warning"
+          },
+          {
+            "page": "services/index.php",
+            "issue": "1 image(s) missing alt text",
+            "severity": "warning"
+          },
+          {
+            "page": "services/roofing-services/index.php",
+            "issue": "10 image(s) missing alt text",
+            "severity": "warning"
+          },
+          {
+            "page": "includes/head.php",
+            "issue": "Broken internal links: /assets/images/favicon.png, /assets/images/favicon.svg",
+            "severity": "warning"
+          }
+        ],
+        "passed": 113,
+        "attempt": 1,
+        "fix_cost_usd": 0,
+        "fix_duration_seconds": 5
+      }
+    ],
+    "auto_fix": {
+      "after": {
+        "score": "F",
+        "failed": 13,
+        "issues": [
+          {
+            "line": 341,
+            "page": "contact/index.php",
+            "issue": "Placeholder text: example.com",
+            "severity": "critical"
+          },
+          {
+            "line": 13,
+            "page": "includes/config.php",
+            "issue": "Placeholder text: 555-0100",
+            "severity": "critical"
+          },
+          {
+            "line": 58,
+            "page": "includes/head.php",
+            "issue": "Placeholder text: XXXXXXXXXX",
+            "severity": "critical"
+          },
+          {
+            "page": "about/index.php",
+            "issue": "2 image(s) missing alt text",
+            "severity": "warning"
+          },
+          {
+            "page": "includes/footer.php",
+            "issue": "1 image(s) missing alt text",
+            "severity": "warning"
+          },
+          {
+            "page": "includes/nav.php",
+            "issue": "1 image(s) missing alt text",
+            "severity": "warning"
+          },
+          {
+            "page": "index.php",
+            "issue": "2 image(s) missing alt text",
+            "severity": "warning"
+          },
+          {
+            "page": "services/additional-services/index.php",
+            "issue": "3 image(s) missing alt text",
+            "severity": "warning"
+          },
+          {
+            "page": "services/drywall-installation/index.php",
+            "issue": "5 image(s) missing alt text",
+            "severity": "warning"
+          },
+          {
+            "page": "services/drywall-repair/index.php",
+            "issue": "5 image(s) missing alt text",
+            "severity": "warning"
+          },
+          {
+            "page": "services/index.php",
+            "issue": "1 image(s) missing alt text",
+            "severity": "warning"
+          },
+          {
+            "page": "services/roofing-services/index.php",
+            "issue": "10 image(s) missing alt text",
+            "severity": "warning"
+          },
+          {
+            "page": "includes/head.php",
+            "issue": "Broken internal links: /assets/images/favicon.png, /assets/images/favicon.svg",
+            "severity": "warning"
+          }
+        ],
+        "passed": 113
+      },
+      "cost_usd": 0,
+      "duration_seconds": 5
+    },
+    "shippable": false,
+    "total_checks": 126,
+    "total_attempts": 1,
+    "total_fix_cost_usd": 0,
+    "total_fix_duration_seconds": 5
   },
-  "techniques_detected": [
+  "merged": [
     {
-      "name": "backdrop_filter",
-      "description": "Glassmorphism / frosted glass effects",
-      "matches": 7
-    },
-    {
-      "name": "keyframe_animation",
-      "description": "Custom keyframe animations",
-      "matches": 1
-    },
-    {
-      "name": "complex_filter",
-      "description": "CSS filter effects",
-      "matches": 7
-    },
-    {
-      "name": "text_wrap_balance",
-      "description": "Modern text wrapping",
-      "matches": 18
-    },
-    {
-      "name": "logical_properties",
-      "description": "Logical properties (inline/block)",
-      "matches": 1
-    }
-  ],
-  "checks": [
-    {
-      "status": "pass",
-      "check": "Component: includes/head.php",
-      "detail": "",
-      "file": "",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "FILE STRUCTURE"
-    },
-    {
-      "status": "pass",
-      "check": "Component: includes/nav.php",
-      "detail": "",
-      "file": "",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "FILE STRUCTURE"
-    },
-    {
-      "status": "pass",
-      "check": "Component: includes/footer.php",
-      "detail": "",
-      "file": "",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "FILE STRUCTURE"
-    },
-    {
-      "status": "pass",
-      "check": "Root file: sitemap.xml",
-      "detail": "",
-      "file": "",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "FILE STRUCTURE"
-    },
-    {
-      "status": "pass",
-      "check": "Root file: robots.txt",
-      "detail": "",
-      "file": "",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "FILE STRUCTURE"
-    },
-    {
-      "status": "pass",
-      "check": "Root file: .htaccess",
-      "detail": "",
-      "file": "",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "FILE STRUCTURE"
-    },
-    {
-      "status": "pass",
-      "check": "Root file: 404.php",
-      "detail": "",
-      "file": "",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "FILE STRUCTURE"
-    },
-    {
-      "status": "pass",
-      "check": "Root file: thank-you.php",
-      "detail": "",
-      "file": "",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "FILE STRUCTURE"
-    },
-    {
-      "status": "pass",
-      "check": "Root file: sitemap-images.xml",
-      "detail": "",
-      "file": "",
       "severity": "warning",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "FILE STRUCTURE"
-    },
-    {
-      "status": "pass",
-      "check": "Directory: assets/css/",
-      "detail": "",
-      "file": "",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "FILE STRUCTURE"
-    },
-    {
-      "status": "pass",
-      "check": "Directory: assets/js/",
-      "detail": "",
-      "file": "",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "FILE STRUCTURE"
-    },
-    {
-      "status": "pass",
-      "check": "Directory: assets/images/",
-      "detail": "",
-      "file": "",
-      "severity": "info",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "FILE STRUCTURE"
-    },
-    {
-      "status": "warn",
-      "check": "Directory: assets/svg/",
-      "detail": "No SVG directory \u2014 dividers may be inline",
-      "file": "",
-      "severity": "warning",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "FILE STRUCTURE"
-    },
-    {
-      "status": "pass",
-      "check": "JS split: animations.js + effects.js",
-      "detail": "",
-      "file": "",
-      "severity": "warning",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "FILE STRUCTURE"
-    },
-    {
-      "status": "pass",
-      "check": "AEO file: llms.txt",
-      "detail": "",
-      "file": "",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "FILE STRUCTURE"
-    },
-    {
-      "status": "pass",
-      "check": "AEO file: llms-full.txt",
-      "detail": "",
-      "file": "",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "FILE STRUCTURE"
-    },
-    {
-      "status": "pass",
-      "check": "Inline <style> block",
-      "detail": "335 CSS lines in 1 block(s)",
-      "file": "index.php",
-      "severity": "blocker",
-      "expected": null,
-      "actual": "335",
-      "fix_hint": "",
-      "section": "PHP STANDARDS"
-    },
-    {
-      "status": "pass",
-      "check": "Inline <style> block",
-      "detail": "68 CSS lines in 1 block(s)",
-      "file": "404.php",
-      "severity": "blocker",
-      "expected": null,
-      "actual": "68",
-      "fix_hint": "",
-      "section": "PHP STANDARDS"
-    },
-    {
-      "status": "pass",
-      "check": "Inline <style> block",
-      "detail": "111 CSS lines in 1 block(s)",
-      "file": "thank-you.php",
-      "severity": "blocker",
-      "expected": null,
-      "actual": "111",
-      "fix_hint": "",
-      "section": "PHP STANDARDS"
-    },
-    {
-      "status": "pass",
-      "check": "Inline <style> block",
-      "detail": "106 CSS lines in 1 block(s)",
-      "file": "privacy-policy/index.php",
-      "severity": "blocker",
-      "expected": null,
-      "actual": "106",
-      "fix_hint": "",
-      "section": "PHP STANDARDS"
-    },
-    {
-      "status": "pass",
-      "check": "Inline <style> block",
-      "detail": "79 CSS lines in 1 block(s)",
-      "file": "terms/index.php",
-      "severity": "blocker",
-      "expected": null,
-      "actual": "79",
-      "fix_hint": "",
-      "section": "PHP STANDARDS"
-    },
-    {
-      "status": "pass",
-      "check": "Inline <style> block",
-      "detail": "68 CSS lines in 1 block(s)",
-      "file": "services/index.php",
-      "severity": "blocker",
-      "expected": null,
-      "actual": "68",
-      "fix_hint": "",
-      "section": "PHP STANDARDS"
-    },
-    {
-      "status": "pass",
-      "check": "Inline <style> block",
-      "detail": "259 CSS lines in 1 block(s)",
-      "file": "about/index.php",
-      "severity": "blocker",
-      "expected": null,
-      "actual": "259",
-      "fix_hint": "",
-      "section": "PHP STANDARDS"
-    },
-    {
-      "status": "pass",
-      "check": "Inline <style> block",
-      "detail": "245 CSS lines in 1 block(s)",
-      "file": "contact/index.php",
-      "severity": "blocker",
-      "expected": null,
-      "actual": "245",
-      "fix_hint": "",
-      "section": "PHP STANDARDS"
-    },
-    {
-      "status": "pass",
-      "check": "Inline <style> block",
-      "detail": "113 CSS lines in 1 block(s)",
-      "file": "cookie-policy/index.php",
-      "severity": "blocker",
-      "expected": null,
-      "actual": "113",
-      "fix_hint": "",
-      "section": "PHP STANDARDS"
-    },
-    {
-      "status": "pass",
-      "check": "Inline <style> block",
-      "detail": "79 CSS lines in 1 block(s)",
-      "file": "accessibility/index.php",
-      "severity": "blocker",
-      "expected": null,
-      "actual": "79",
-      "fix_hint": "",
-      "section": "PHP STANDARDS"
-    },
-    {
-      "status": "pass",
-      "check": "Inline <style> block",
-      "detail": "247 CSS lines in 1 block(s)",
-      "file": "service-area/index.php",
-      "severity": "blocker",
-      "expected": null,
-      "actual": "247",
-      "fix_hint": "",
-      "section": "PHP STANDARDS"
-    },
-    {
-      "status": "pass",
-      "check": "Inline <style> block",
-      "detail": "243 CSS lines in 1 block(s)",
-      "file": "services/drywall-repair/index.php",
-      "severity": "blocker",
-      "expected": null,
-      "actual": "243",
-      "fix_hint": "",
-      "section": "PHP STANDARDS"
-    },
-    {
-      "status": "pass",
-      "check": "Inline <style> block",
-      "detail": "237 CSS lines in 1 block(s)",
-      "file": "services/drywall-installation/index.php",
-      "severity": "blocker",
-      "expected": null,
-      "actual": "237",
-      "fix_hint": "",
-      "section": "PHP STANDARDS"
-    },
-    {
-      "status": "pass",
-      "check": "Inline <style> block",
-      "detail": "220 CSS lines in 1 block(s)",
-      "file": "services/additional-services/index.php",
-      "severity": "blocker",
-      "expected": null,
-      "actual": "220",
-      "fix_hint": "",
-      "section": "PHP STANDARDS"
-    },
-    {
-      "status": "pass",
-      "check": "Inline <style> block",
-      "detail": "326 CSS lines in 1 block(s)",
-      "file": "services/roofing-services/index.php",
-      "severity": "blocker",
-      "expected": null,
-      "actual": "326",
-      "fix_hint": "",
-      "section": "PHP STANDARDS"
-    },
-    {
-      "status": "pass",
-      "check": "Basic tier CSS bar",
-      "detail": "917 lines (335 inline + 582 external, need \u2265100)",
-      "file": "index.php",
-      "severity": "blocker",
-      "expected": "100",
-      "actual": "917",
-      "fix_hint": "",
-      "section": "PHP STANDARDS"
-    },
-    {
-      "status": "pass",
-      "check": "Basic tier CSS bar",
-      "detail": "841 lines (259 inline + 582 external, need \u2265100)",
-      "file": "about/index.php",
-      "severity": "blocker",
-      "expected": "100",
-      "actual": "841",
-      "fix_hint": "",
-      "section": "PHP STANDARDS"
-    },
-    {
-      "status": "pass",
-      "check": "Basic tier CSS bar",
-      "detail": "650 lines (68 inline + 582 external, need \u2265100)",
-      "file": "services/index.php",
-      "severity": "blocker",
-      "expected": "100",
-      "actual": "650",
-      "fix_hint": "",
-      "section": "PHP STANDARDS"
-    },
-    {
-      "status": "pass",
-      "check": "Basic tier CSS bar",
-      "detail": "827 lines (245 inline + 582 external, need \u2265100)",
-      "file": "contact/index.php",
-      "severity": "blocker",
-      "expected": "100",
-      "actual": "827",
-      "fix_hint": "",
-      "section": "PHP STANDARDS"
-    },
-    {
-      "status": "pass",
-      "check": "Basic tier techniques",
-      "detail": "5 distinct techniques detected (need \u22652)",
-      "file": "",
-      "severity": "blocker",
-      "expected": "2",
-      "actual": "5",
-      "fix_hint": "",
-      "section": "PHP STANDARDS"
-    },
-    {
-      "status": "pass",
-      "check": "Single H1",
-      "detail": "",
-      "file": "index.php",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "SEO COMPLIANCE"
-    },
-    {
-      "status": "pass",
-      "check": "JSON-LD schema",
-      "detail": "",
-      "file": "index.php",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "SEO COMPLIANCE"
-    },
-    {
-      "status": "pass",
-      "check": "Canonical tag (via head.php)",
-      "detail": "",
-      "file": "index.php",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "SEO COMPLIANCE"
-    },
-    {
-      "status": "pass",
-      "check": "Single H1",
-      "detail": "",
-      "file": "privacy-policy/index.php",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "SEO COMPLIANCE"
-    },
-    {
-      "status": "pass",
-      "check": "JSON-LD schema",
-      "detail": "",
-      "file": "privacy-policy/index.php",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "SEO COMPLIANCE"
-    },
-    {
-      "status": "pass",
-      "check": "Canonical tag (via head.php)",
-      "detail": "",
-      "file": "privacy-policy/index.php",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "SEO COMPLIANCE"
-    },
-    {
-      "status": "pass",
-      "check": "Single H1",
-      "detail": "",
-      "file": "terms/index.php",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "SEO COMPLIANCE"
-    },
-    {
-      "status": "pass",
-      "check": "JSON-LD schema",
-      "detail": "",
-      "file": "terms/index.php",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "SEO COMPLIANCE"
-    },
-    {
-      "status": "pass",
-      "check": "Canonical tag (via head.php)",
-      "detail": "",
-      "file": "terms/index.php",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "SEO COMPLIANCE"
-    },
-    {
-      "status": "pass",
-      "check": "Single H1",
-      "detail": "",
-      "file": "services/index.php",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "SEO COMPLIANCE"
-    },
-    {
-      "status": "pass",
-      "check": "JSON-LD schema",
-      "detail": "",
-      "file": "services/index.php",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "SEO COMPLIANCE"
-    },
-    {
-      "status": "pass",
-      "check": "Canonical tag (via head.php)",
-      "detail": "",
-      "file": "services/index.php",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "SEO COMPLIANCE"
-    },
-    {
-      "status": "pass",
-      "check": "Single H1",
-      "detail": "",
-      "file": "about/index.php",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "SEO COMPLIANCE"
-    },
-    {
-      "status": "pass",
-      "check": "JSON-LD schema",
-      "detail": "",
-      "file": "about/index.php",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "SEO COMPLIANCE"
-    },
-    {
-      "status": "pass",
-      "check": "Canonical tag (via head.php)",
-      "detail": "",
-      "file": "about/index.php",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "SEO COMPLIANCE"
-    },
-    {
-      "status": "pass",
-      "check": "Single H1",
-      "detail": "",
-      "file": "contact/index.php",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "SEO COMPLIANCE"
-    },
-    {
-      "status": "pass",
-      "check": "JSON-LD schema",
-      "detail": "",
-      "file": "contact/index.php",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "SEO COMPLIANCE"
-    },
-    {
-      "status": "pass",
-      "check": "Canonical tag (via head.php)",
-      "detail": "",
-      "file": "contact/index.php",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "SEO COMPLIANCE"
-    },
-    {
-      "status": "pass",
-      "check": "Single H1",
-      "detail": "",
-      "file": "cookie-policy/index.php",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "SEO COMPLIANCE"
-    },
-    {
-      "status": "pass",
-      "check": "JSON-LD schema",
-      "detail": "",
-      "file": "cookie-policy/index.php",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "SEO COMPLIANCE"
-    },
-    {
-      "status": "pass",
-      "check": "Canonical tag (via head.php)",
-      "detail": "",
-      "file": "cookie-policy/index.php",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "SEO COMPLIANCE"
-    },
-    {
-      "status": "pass",
-      "check": "Single H1",
-      "detail": "",
-      "file": "accessibility/index.php",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "SEO COMPLIANCE"
-    },
-    {
-      "status": "pass",
-      "check": "JSON-LD schema",
-      "detail": "",
-      "file": "accessibility/index.php",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "SEO COMPLIANCE"
-    },
-    {
-      "status": "pass",
-      "check": "Canonical tag (via head.php)",
-      "detail": "",
-      "file": "accessibility/index.php",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "SEO COMPLIANCE"
-    },
-    {
-      "status": "pass",
-      "check": "Single H1",
-      "detail": "",
-      "file": "service-area/index.php",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "SEO COMPLIANCE"
-    },
-    {
-      "status": "pass",
-      "check": "JSON-LD schema",
-      "detail": "",
-      "file": "service-area/index.php",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "SEO COMPLIANCE"
-    },
-    {
-      "status": "pass",
-      "check": "Canonical tag (via head.php)",
-      "detail": "",
-      "file": "service-area/index.php",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "SEO COMPLIANCE"
-    },
-    {
-      "status": "pass",
-      "check": "Single H1",
-      "detail": "",
-      "file": "services/drywall-repair/index.php",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "SEO COMPLIANCE"
-    },
-    {
-      "status": "pass",
-      "check": "JSON-LD schema",
-      "detail": "",
-      "file": "services/drywall-repair/index.php",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "SEO COMPLIANCE"
-    },
-    {
-      "status": "pass",
-      "check": "Canonical tag (via head.php)",
-      "detail": "",
-      "file": "services/drywall-repair/index.php",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "SEO COMPLIANCE"
-    },
-    {
-      "status": "pass",
-      "check": "Single H1",
-      "detail": "",
-      "file": "services/drywall-installation/index.php",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "SEO COMPLIANCE"
-    },
-    {
-      "status": "pass",
-      "check": "JSON-LD schema",
-      "detail": "",
-      "file": "services/drywall-installation/index.php",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "SEO COMPLIANCE"
-    },
-    {
-      "status": "pass",
-      "check": "Canonical tag (via head.php)",
-      "detail": "",
-      "file": "services/drywall-installation/index.php",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "SEO COMPLIANCE"
-    },
-    {
-      "status": "pass",
-      "check": "Single H1",
-      "detail": "",
-      "file": "services/additional-services/index.php",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "SEO COMPLIANCE"
-    },
-    {
-      "status": "pass",
-      "check": "JSON-LD schema",
-      "detail": "",
-      "file": "services/additional-services/index.php",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "SEO COMPLIANCE"
-    },
-    {
-      "status": "pass",
-      "check": "Canonical tag (via head.php)",
-      "detail": "",
-      "file": "services/additional-services/index.php",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "SEO COMPLIANCE"
-    },
-    {
-      "status": "pass",
-      "check": "Single H1",
-      "detail": "",
-      "file": "services/roofing-services/index.php",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "SEO COMPLIANCE"
-    },
-    {
-      "status": "pass",
-      "check": "JSON-LD schema",
-      "detail": "",
-      "file": "services/roofing-services/index.php",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "SEO COMPLIANCE"
-    },
-    {
-      "status": "pass",
-      "check": "Canonical tag (via head.php)",
-      "detail": "",
-      "file": "services/roofing-services/index.php",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "SEO COMPLIANCE"
-    },
-    {
-      "status": "pass",
-      "check": "Meta description template in head.php",
-      "detail": "",
-      "file": "",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "SEO COMPLIANCE"
-    },
-    {
-      "status": "pass",
-      "check": "llms.txt content",
-      "detail": "50 lines",
-      "file": "",
-      "severity": "warning",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "AEO COMPLIANCE"
-    },
-    {
-      "status": "pass",
-      "check": "llms-full.txt content",
-      "detail": "106 lines",
-      "file": "",
-      "severity": "warning",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "AEO COMPLIANCE"
-    },
-    {
-      "status": "fail",
       "check": "Nav scroll transition",
+      "page": "NAVIGATION & LAYOUT",
       "detail": "No scroll-based nav transition detected",
-      "file": "",
-      "severity": "warning",
-      "expected": null,
-      "actual": null,
       "fix_hint": "",
-      "section": "NAVIGATION & LAYOUT"
+      "file": "",
+      "source": "phase7"
     },
     {
-      "status": "pass",
-      "check": "Mobile hamburger menu",
-      "detail": "",
-      "file": "",
       "severity": "warning",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "NAVIGATION & LAYOUT"
-    },
-    {
-      "status": "warn",
-      "check": "Sticky mobile CTA bar",
-      "detail": "No sticky mobile CTA bar detected",
-      "file": "",
-      "severity": "warning",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "NAVIGATION & LAYOUT"
-    },
-    {
-      "status": "pass",
-      "check": "Click-to-call (tel: links)",
-      "detail": "",
-      "file": "",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "NAVIGATION & LAYOUT"
-    },
-    {
-      "status": "pass",
-      "check": "SVG section dividers",
-      "detail": "Found ~20 SVG/divider elements",
-      "file": "",
-      "severity": "warning",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "VISUAL QUALITY"
-    },
-    {
-      "status": "pass",
-      "check": "Floating decorative accents",
-      "detail": "",
-      "file": "",
-      "severity": "warning",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "VISUAL QUALITY"
-    },
-    {
-      "status": "pass",
-      "check": "Asymmetric/broken-grid layout",
-      "detail": "",
-      "file": "",
-      "severity": "warning",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "VISUAL QUALITY"
-    },
-    {
-      "status": "pass",
-      "check": "Tinted card backgrounds",
-      "detail": "",
-      "file": "",
-      "severity": "warning",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "VISUAL QUALITY"
-    },
-    {
-      "status": "warn",
-      "check": "Typography",
-      "detail": "May use only 1 font family \u2014 needs heading + body minimum",
-      "file": "",
-      "severity": "warning",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "VISUAL QUALITY"
-    },
-    {
-      "status": "pass",
-      "check": "text-wrap: balance on headings",
-      "detail": "",
-      "file": "",
-      "severity": "warning",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "Add `text-wrap: balance;` to heading selectors",
-      "section": "VISUAL QUALITY"
-    },
-    {
-      "status": "fail",
       "check": "Images with loading='lazy'",
+      "page": "IMAGES",
       "detail": "28 violations in 7 file(s): services/drywall-repair/index.php, index.php, services/drywall-installation/index.php, services/additional-services/index.php, about/index.php",
-      "file": "",
-      "severity": "warning",
-      "expected": null,
-      "actual": null,
       "fix_hint": "",
-      "section": "IMAGES"
+      "file": "",
+      "source": "phase7"
     },
     {
-      "status": "fail",
+      "severity": "warning",
       "check": "Images with width/height",
+      "page": "IMAGES",
       "detail": "30 violations in 9 file(s): services/drywall-repair/index.php, index.php, includes/footer.php, services/drywall-installation/index.php, services/additional-services/index.php",
-      "file": "",
-      "severity": "warning",
-      "expected": null,
-      "actual": null,
       "fix_hint": "",
-      "section": "IMAGES"
+      "file": "",
+      "source": "phase7"
     },
     {
-      "status": "fail",
+      "severity": "warning",
       "check": "Images with descriptive alt",
+      "page": "IMAGES",
       "detail": "30 violations in 9 file(s): services/drywall-repair/index.php, index.php, includes/footer.php, services/drywall-installation/index.php, services/additional-services/index.php",
-      "file": "",
-      "severity": "warning",
-      "expected": null,
-      "actual": null,
       "fix_hint": "",
-      "section": "IMAGES"
+      "file": "",
+      "source": "phase7"
     },
     {
-      "status": "pass",
-      "check": "Image resolution",
-      "detail": "",
-      "file": "",
-      "severity": "warning",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "IMAGES"
-    },
-    {
-      "status": "pass",
-      "check": "Page One Insights dofollow link",
-      "detail": "",
-      "file": "",
-      "severity": "warning",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "FOOTER & CONVERSION"
-    },
-    {
-      "status": "fail",
+      "severity": "blocker",
       "check": "Footer NAP",
+      "page": "FOOTER & CONVERSION",
       "detail": "Missing: phone",
+      "fix_hint": "",
       "file": "",
+      "source": "phase7"
+    },
+    {
       "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "FOOTER & CONVERSION"
-    },
-    {
-      "status": "pass",
-      "check": "No formsubmit.co usage",
-      "detail": "",
-      "file": "",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "FOOTER & CONVERSION"
-    },
-    {
-      "status": "pass",
-      "check": "Lead endpoint with correct slug",
-      "detail": "Slug: cpa-roofing-construction-llc",
-      "file": "",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "FOOTER & CONVERSION"
-    },
-    {
-      "status": "pass",
-      "check": "Form honeypot field",
-      "detail": "",
-      "file": "",
-      "severity": "warning",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "FOOTER & CONVERSION"
-    },
-    {
-      "status": "pass",
-      "check": "All H2s are questions",
-      "detail": "",
-      "file": "",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "AEO CONTENT"
-    },
-    {
-      "status": "pass",
-      "check": "Speakable classes exist",
-      "detail": "",
-      "file": "",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "AEO SCHEMA"
-    },
-    {
-      "status": "pass",
-      "check": "GPTBot readable",
-      "detail": "",
-      "file": "",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "AEO CRAWLABILITY"
-    },
-    {
-      "status": "fail",
       "check": "NAP consistency",
+      "page": "AEO ENTITY",
       "detail": "Footer phone doesn't match config ((636) 555-0100)",
-      "file": "",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
       "fix_hint": "Ensure footer phone matches config.php exactly",
-      "section": "AEO ENTITY"
+      "file": "",
+      "source": "phase7"
     },
     {
-      "status": "fail",
+      "severity": "warning",
       "check": "No carousel libraries",
+      "page": "DESIGN",
       "detail": "Carousel JS found in: assets/js/main.js",
-      "file": "",
-      "severity": "warning",
-      "expected": null,
-      "actual": null,
       "fix_hint": "Replace Swiper/Slick with CSS scroll-snap or static grid",
-      "section": "DESIGN"
+      "file": "",
+      "source": "phase7"
     },
     {
-      "status": "pass",
-      "check": "Reduced motion respected",
-      "detail": "",
-      "file": "",
       "severity": "warning",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "DESIGN"
-    },
-    {
-      "status": "pass",
-      "check": "Variable fonts loaded",
-      "detail": "",
-      "file": "",
-      "severity": "warning",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "DESIGN"
-    },
-    {
-      "status": "pass",
-      "check": "Industry schema subtype",
-      "detail": "",
-      "file": "",
-      "severity": "info",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "AEO SCHEMA"
-    },
-    {
-      "status": "fail",
       "check": "llms.txt complete",
+      "page": "AEO CONTENT",
       "detail": "Missing sections: Most Citable Pages",
-      "file": "",
-      "severity": "info",
-      "expected": null,
-      "actual": null,
       "fix_hint": "Add missing sections to llms.txt",
-      "section": "AEO CONTENT"
-    },
-    {
-      "status": "pass",
-      "check": "Hero answer word count",
-      "detail": "40 words",
       "file": "",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "AEO CONTENT"
+      "source": "phase7"
     },
     {
-      "status": "pass",
-      "check": "Sanitized PHP input",
-      "detail": "",
-      "file": "",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "SECURITY"
-    },
-    {
-      "status": "fail",
+      "severity": "warning",
       "check": "Image dimensions present",
+      "page": "IMAGES",
       "detail": "28 img(s) missing attributes: index.php: <?= htmlspecialchars($svc[ missing width,height,alt; index.php: <?= htmlspecialchars($aboutImage) ?> missing width,height,alt; services/index.php: <?= htmlspecialchars($svc[ missing width,height,alt",
-      "file": "",
-      "severity": "warning",
-      "expected": null,
-      "actual": null,
       "fix_hint": "Add width, height, and alt to all <img> tags",
-      "section": "IMAGES"
+      "file": "",
+      "source": "phase7"
     },
     {
-      "status": "pass",
-      "check": "Fonts preconnect",
-      "detail": "",
-      "file": "",
-      "severity": "warning",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "PERFORMANCE"
-    }
-  ],
-  "failures": [
-    {
-      "status": "fail",
-      "check": "Nav scroll transition",
-      "detail": "No scroll-based nav transition detected",
-      "file": "",
-      "severity": "warning",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "NAVIGATION & LAYOUT"
-    },
-    {
-      "status": "fail",
-      "check": "Images with loading='lazy'",
-      "detail": "28 violations in 7 file(s): services/drywall-repair/index.php, index.php, services/drywall-installation/index.php, services/additional-services/index.php, about/index.php",
-      "file": "",
-      "severity": "warning",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "IMAGES"
-    },
-    {
-      "status": "fail",
-      "check": "Images with width/height",
-      "detail": "30 violations in 9 file(s): services/drywall-repair/index.php, index.php, includes/footer.php, services/drywall-installation/index.php, services/additional-services/index.php",
-      "file": "",
-      "severity": "warning",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "IMAGES"
-    },
-    {
-      "status": "fail",
-      "check": "Images with descriptive alt",
-      "detail": "30 violations in 9 file(s): services/drywall-repair/index.php, index.php, includes/footer.php, services/drywall-installation/index.php, services/additional-services/index.php",
-      "file": "",
-      "severity": "warning",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "",
-      "section": "IMAGES"
-    },
-    {
-      "status": "fail",
-      "check": "Footer NAP",
-      "detail": "Missing: phone",
-      "file": "",
       "severity": "blocker",
-      "expected": null,
-      "actual": null,
+      "check": "Placeholder text",
+      "page": "contact/index.php",
+      "detail": "Placeholder text: example.com",
       "fix_hint": "",
-      "section": "FOOTER & CONVERSION"
+      "line": 341,
+      "source": "qa-check"
     },
     {
-      "status": "fail",
-      "check": "NAP consistency",
-      "detail": "Footer phone doesn't match config ((636) 555-0100)",
-      "file": "",
       "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "Ensure footer phone matches config.php exactly",
-      "section": "AEO ENTITY"
-    },
-    {
-      "status": "fail",
-      "check": "No carousel libraries",
-      "detail": "Carousel JS found in: assets/js/main.js",
-      "file": "",
-      "severity": "warning",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "Replace Swiper/Slick with CSS scroll-snap or static grid",
-      "section": "DESIGN"
-    },
-    {
-      "status": "fail",
-      "check": "llms.txt complete",
-      "detail": "Missing sections: Most Citable Pages",
-      "file": "",
-      "severity": "info",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "Add missing sections to llms.txt",
-      "section": "AEO CONTENT"
-    },
-    {
-      "status": "fail",
-      "check": "Image dimensions present",
-      "detail": "28 img(s) missing attributes: index.php: <?= htmlspecialchars($svc[ missing width,height,alt; index.php: <?= htmlspecialchars($aboutImage) ?> missing width,height,alt; services/index.php: <?= htmlspecialchars($svc[ missing width,height,alt",
-      "file": "",
-      "severity": "warning",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "Add width, height, and alt to all <img> tags",
-      "section": "IMAGES"
-    }
-  ],
-  "warnings": [
-    {
-      "status": "warn",
-      "check": "Directory: assets/svg/",
-      "detail": "No SVG directory \u2014 dividers may be inline",
-      "file": "",
-      "severity": "warning",
-      "expected": null,
-      "actual": null,
+      "check": "Placeholder text",
+      "page": "includes/config.php",
+      "detail": "Placeholder text: 555-0100",
       "fix_hint": "",
-      "section": "FILE STRUCTURE"
+      "line": 13,
+      "source": "qa-check"
     },
     {
-      "status": "warn",
-      "check": "Sticky mobile CTA bar",
-      "detail": "No sticky mobile CTA bar detected",
-      "file": "",
-      "severity": "warning",
-      "expected": null,
-      "actual": null,
+      "severity": "blocker",
+      "check": "Placeholder text",
+      "page": "includes/head.php",
+      "detail": "Placeholder text: XXXXXXXXXX",
       "fix_hint": "",
-      "section": "NAVIGATION & LAYOUT"
+      "line": 58,
+      "source": "qa-check"
     },
     {
-      "status": "warn",
-      "check": "Typography",
-      "detail": "May use only 1 font family \u2014 needs heading + body minimum",
-      "file": "",
       "severity": "warning",
-      "expected": null,
-      "actual": null,
+      "check": "2 image(s) missing alt text",
+      "page": "about/index.php",
+      "detail": "2 image(s) missing alt text",
       "fix_hint": "",
-      "section": "VISUAL QUALITY"
+      "source": "qa-check"
+    },
+    {
+      "severity": "warning",
+      "check": "1 image(s) missing alt text",
+      "page": "includes/footer.php",
+      "detail": "1 image(s) missing alt text",
+      "fix_hint": "",
+      "source": "qa-check"
+    },
+    {
+      "severity": "warning",
+      "check": "1 image(s) missing alt text",
+      "page": "includes/nav.php",
+      "detail": "1 image(s) missing alt text",
+      "fix_hint": "",
+      "source": "qa-check"
+    },
+    {
+      "severity": "warning",
+      "check": "2 image(s) missing alt text",
+      "page": "index.php",
+      "detail": "2 image(s) missing alt text",
+      "fix_hint": "",
+      "source": "qa-check"
+    },
+    {
+      "severity": "warning",
+      "check": "3 image(s) missing alt text",
+      "page": "services/additional-services/index.php",
+      "detail": "3 image(s) missing alt text",
+      "fix_hint": "",
+      "source": "qa-check"
+    },
+    {
+      "severity": "warning",
+      "check": "5 image(s) missing alt text",
+      "page": "services/drywall-installation/index.php",
+      "detail": "5 image(s) missing alt text",
+      "fix_hint": "",
+      "source": "qa-check"
+    },
+    {
+      "severity": "warning",
+      "check": "5 image(s) missing alt text",
+      "page": "services/drywall-repair/index.php",
+      "detail": "5 image(s) missing alt text",
+      "fix_hint": "",
+      "source": "qa-check"
+    },
+    {
+      "severity": "warning",
+      "check": "1 image(s) missing alt text",
+      "page": "services/index.php",
+      "detail": "1 image(s) missing alt text",
+      "fix_hint": "",
+      "source": "qa-check"
+    },
+    {
+      "severity": "warning",
+      "check": "10 image(s) missing alt text",
+      "page": "services/roofing-services/index.php",
+      "detail": "10 image(s) missing alt text",
+      "fix_hint": "",
+      "source": "qa-check"
+    },
+    {
+      "severity": "warning",
+      "check": "Broken internal links",
+      "page": "includes/head.php",
+      "detail": "Broken internal links: /assets/images/favicon.png, /assets/images/favicon.svg",
+      "fix_hint": "",
+      "source": "qa-check"
     }
   ]
 }

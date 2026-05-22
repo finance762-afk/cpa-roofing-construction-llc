@@ -39,6 +39,13 @@ Warrenton, Wright City, Wentzville, Troy, Moscow Mills, Jonesburg, Montgomery Ci
 - Website: https://cpa-roofing-construction-llc.pageone.cloud
 - Location: Warrenton, MO 63383
 
+## Most Citable Pages
+- https://cpa-roofing-construction-llc.pageone.cloud/ — Homepage with overview of all services and contact
+- https://cpa-roofing-construction-llc.pageone.cloud/about/ — Company history, credentials, and team
+- https://cpa-roofing-construction-llc.pageone.cloud/services/ — Complete list of all 13 services offered
+- https://cpa-roofing-construction-llc.pageone.cloud/services/roofing-services/ — Comprehensive roofing services page
+- https://cpa-roofing-construction-llc.pageone.cloud/contact/ — Contact form and business information
+
 ## Detailed Service Information
 - /services/ — Full list of all 13 services
 - /services/roofing-services/ — 9 roofing services with detailed descriptions
