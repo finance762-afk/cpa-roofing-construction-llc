@@ -92,7 +92,7 @@
         <meta itemprop="telephone" content="<?php echo htmlspecialchars($phone); ?>">
 <?php endif; ?>
         <h4>About <?php echo htmlspecialchars($siteName); ?></h4>
-        <p><?php echo htmlspecialchars($siteName); ?> is a licensed roofing and construction contractor based in <?php echo htmlspecialchars($address['city']); ?>, <?php echo htmlspecialchars($address['state']); ?>. Since <?php echo $yearEstablished; ?>, we have provided residential and commercial roofing, siding, drywall, and insurance-based storm restoration services across central and eastern Missouri. Available seven days a week with free estimates on every project.</p>
+        <p><?php echo htmlspecialchars($siteName); ?> is a licensed roofing and construction contractor based in <?php echo htmlspecialchars($address['city']); ?>, <?php echo htmlspecialchars($address['state']); ?>. Since <?php echo $yearEstablished; ?>, we have provided residential and commercial roofing, siding, and insurance-based storm restoration services across central and eastern Missouri. Available seven days a week with free estimates on every project.</p>
       </div>
 
       <!-- Footer Legal Row -->

@@ -29,7 +29,7 @@ $communities = [
     [
         'name' => 'Warrenton',
         'icon' => 'home',
-        'desc' => 'Our home base in Warren County. CPA Roofing has been headquartered in Warrenton since 1995, delivering residential and commercial roofing, siding, and drywall services throughout the 63383 ZIP code. From historic downtown properties to newer developments along Highway 47, we know every neighborhood.',
+        'desc' => 'Our home base in Warren County. CPA Roofing has been headquartered in Warrenton since 1995, delivering residential and commercial roofing and siding services throughout the 63383 ZIP code. From historic downtown properties to newer developments along Highway 47, we know every neighborhood.',
     ],
     [
         'name' => 'Wright City',
@@ -49,7 +49,7 @@ $communities = [
     [
         'name' => 'Moscow Mills',
         'icon' => 'hammer',
-        'desc' => 'Located between Troy and Wentzville in Lincoln County, Moscow Mills is a growing community where CPA provides roofing contractor services, siding installation, and drywall repair. Our crews are familiar with the local building codes and subdivision requirements.',
+        'desc' => 'Located between Troy and Wentzville in Lincoln County, Moscow Mills is a growing community where CPA provides roofing contractor services and siding installation. Our crews are familiar with the local building codes and subdivision requirements.',
     ],
     [
         'name' => 'Jonesburg',
@@ -335,7 +335,7 @@ $communities = [
       <span>Service Area</span>
     </nav>
     <h1>Roofing &amp; Construction Services in <span class="text-accent">Warrenton, MO</span> &amp; Surrounding Areas</h1>
-    <p class="hero-answer">CPA Roofing &amp; Construction, LLC is a licensed Missouri roofing contractor based in Warrenton, serving homeowners and businesses within a 50-mile radius. From Warren County through the I-70 corridor and beyond, our crews deliver residential roofing, commercial roof systems, siding, drywall, and insurance storm restoration seven days a week.</p>
+    <p class="hero-answer">CPA Roofing &amp; Construction, LLC is a licensed Missouri roofing contractor based in Warrenton, serving homeowners and businesses within a 50-mile radius. From Warren County through the I-70 corridor and beyond, our crews deliver residential roofing, commercial roof systems, siding, and insurance storm restoration seven days a week.</p>
   </div>
 </section>
 

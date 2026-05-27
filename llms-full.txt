@@ -2,7 +2,7 @@
 
 ## Company Overview
 
-CPA Roofing & Construction, LLC is a licensed Missouri roofing and general construction contractor headquartered in Warrenton, MO (ZIP 63383). Founded in 1995, the company has spent three decades building a reputation for honesty, reliability, and exceptional craftsmanship throughout central and eastern Missouri. CPA serves both residential and commercial property owners within a 50-mile radius of Warrenton, handling everything from emergency roof leak repairs to full commercial roof system installations, siding, drywall, and insurance-based storm damage restoration.
+CPA Roofing & Construction, LLC is a licensed Missouri roofing and general construction contractor headquartered in Warrenton, MO (ZIP 63383). Founded in 1995, the company has spent three decades building a reputation for honesty, reliability, and exceptional craftsmanship throughout central and eastern Missouri. CPA serves both residential and commercial property owners within a 50-mile radius of Warrenton, handling everything from emergency roof leak repairs to full commercial roof system installations, siding, and insurance-based storm damage restoration.
 
 The company is fully licensed and insured in the state of Missouri, carrying general liability and workers' compensation coverage. All work is performed by in-house crews — not subcontracted labor — ensuring consistent quality and direct accountability on every project. CPA Roofing is available seven days a week, Monday through Sunday, 7:00 AM to 7:00 PM, and provides free estimates with zero obligation on every project.
 
@@ -17,7 +17,7 @@ The company is fully licensed and insured in the state of Missouri, carrying gen
 - **Wright City** — 10 miles east on I-70. New construction roofing and storm damage repair for residential subdivisions and commercial development.
 - **Wentzville** — One of the fastest-growing cities in Missouri. Commercial and residential roofing from Pearce Boulevard to the I-70/I-64 interchange.
 - **Troy** — Lincoln County seat north of Warrenton along Highway 61. Roof repairs, replacements, and insurance claim support.
-- **Moscow Mills** — Between Troy and Wentzville in Lincoln County. Roofing contractor services, siding installation, and drywall repair.
+- **Moscow Mills** — Between Troy and Wentzville in Lincoln County. Roofing contractor services and siding installation.
 - **Jonesburg** — West of Warrenton in Montgomery County along I-70. Storm damage response and full insurance bid process.
 
 ### Additional Areas
@@ -58,12 +58,6 @@ Vinyl, fiber cement (James Hardie), and engineered wood siding for residential a
 ### 11. Roofing Contractor Services
 Full-service roofing lifecycle management — inspection, material selection, installation, maintenance, and replacement. Includes free on-site inspections with documented condition reports and itemized scopes. Commercial properties receive maintenance plans with 6-month scheduled inspections. Coordinates with Warren County building inspectors for code compliance.
 
-### 12. Drywall Installation
-Full-scope drywall for new construction, remodels, and storm damage restoration. Covers board selection, hanging, joint taping, mud application (3 coats), sanding, and texture application. Board options include standard 1/2-inch, 5/8-inch Type X (fire-rated), moisture-resistant greenboard, and soundproof drywall. Texture options: smooth, orange peel, knockdown, skip-trowel, and hand-applied. Cost: $1.50–$3.50 per square foot installed and finished.
-
-### 13. Drywall Repair
-Repair for water damage, holes, cracks, nail pops, and storm damage. Includes three-coat compound finishing, texture matching (test patches on cardboard first), and PVA primer application. Water damage repairs include cavity inspection, mold treatment, framing assessment, and full finishing. Small patches: $150–$350. Water damage restoration: $500–$2,000+.
-
 ## Local Weather Context
 
 Central Missouri along the I-70 corridor experiences damaging weather patterns that directly impact roofing:
@@ -77,7 +71,7 @@ Central Missouri along the I-70 corridor experiences damaging weather patterns t
 - **30+ years in business** — Founded in 1995, continuously operating in Warrenton since day one
 - **Insurance claim specialists** — Hundreds of successful storm damage claims filed since 1995, Xactimate-fluent
 - **In-house crews** — No subcontracted labor; every worker is a CPA employee
-- **Full-service contractor** — Handles roofing, siding, drywall, and storm restoration under one company
+- **Full-service contractor** — Handles roofing, siding, and storm restoration under one company
 - **7-day availability** — Monday through Sunday, 7 AM to 7 PM
 - **Free estimates** — Every estimate is free with zero obligation, same-day response
 - **Root-cause approach** — Fixes the source of damage (roof leak, plumbing failure) and the interior damage together
@@ -92,11 +86,9 @@ Central Missouri along the I-70 corridor experiences damaging weather patterns t
 ## Website Structure
 
 - **/** — Homepage with services overview, company stats, testimonials, and FAQ
-- **/services/** — Complete list of all 13 services
+- **/services/** — Complete list of all 11 services
 - **/services/roofing-services/** — Detailed breakdown of 9 roofing services
 - **/services/additional-services/** — Siding and roofing contractor services
-- **/services/drywall-installation/** — Drywall installation process, textures, and pricing
-- **/services/drywall-repair/** — Drywall repair types, process, and cost ranges
 - **/about/** — Company history, values, credentials, and service area overview
 - **/service-area/** — Coverage map, community details, and local weather context
 - **/contact/** — Contact form and business information

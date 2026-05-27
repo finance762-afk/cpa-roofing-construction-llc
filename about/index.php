@@ -314,7 +314,7 @@ $schemaMarkup = json_encode([
       <span>About</span>
     </nav>
     <h1>About <span class="text-accent">CPA Roofing &amp; Construction</span></h1>
-    <p class="hero-answer">CPA Roofing &amp; Construction, LLC is a licensed Missouri roofing contractor based in Warrenton, serving central and eastern Missouri since 1995. With <?= $yearsInBusiness ?> years of hands-on experience in residential roofing, commercial roof systems, siding, drywall, and insurance storm restoration, we have built a reputation on honest work and lasting results.</p>
+    <p class="hero-answer">CPA Roofing &amp; Construction, LLC is a licensed Missouri roofing contractor based in Warrenton, serving central and eastern Missouri since 1995. With <?= $yearsInBusiness ?> years of hands-on experience in residential roofing, commercial roof systems, siding, and insurance storm restoration, we have built a reputation on honest work and lasting results.</p>
   </div>
 </section>
 
@@ -339,7 +339,7 @@ $schemaMarkup = json_encode([
         <h2>How Did CPA Roofing Become Warrenton's <span class="text-accent">Go-To Contractor</span> Over <?= $yearsInBusiness ?> Years?</h2>
         <p class="answer-block">CPA Roofing &amp; Construction was founded in 1995 in Warrenton, Missouri, with a straightforward mission: deliver reliable roofing and construction work at fair prices. Over three decades, that commitment has grown the company from a small residential crew into a full-service contractor handling everything from commercial TPO systems to insurance-based storm restoration.</p>
         <p>The Warrenton area sits along the I-70 corridor in Warren County, where Missouri weather delivers its full range — spring hailstorms, summer downpours, ice dams in winter. That exposure shaped the way CPA operates. Every crew member understands the local conditions that damage roofs, and every repair or installation is built to withstand what Missouri brings next.</p>
-        <p>Over the years, CPA expanded beyond residential shingle work into commercial roofing, metal roofing, TPO membrane systems, siding, and interior drywall. The company also developed deep expertise in insurance claims, helping hundreds of property owners navigate the paperwork after storm damage and secure fair payouts from their carriers.</p>
+        <p>Over the years, CPA expanded beyond residential shingle work into commercial roofing, metal roofing, TPO membrane systems, and siding. The company also developed deep expertise in insurance claims, helping hundreds of property owners navigate the paperwork after storm damage and secure fair payouts from their carriers.</p>
         <p>Today, CPA Roofing &amp; Construction serves Warrenton and communities within a 50-mile radius — Wright City, Wentzville, Troy, Moscow Mills, and beyond. The crew is available seven days a week, and every estimate is free with zero obligation.</p>
       </div>
 
@@ -451,7 +451,7 @@ $schemaMarkup = json_encode([
             <span class="cred-icon"><i data-lucide="calendar"></i></span>
             <div>
               <h4><?= $yearsInBusiness ?>+ Years of Experience</h4>
-              <p>Three decades of hands-on roofing, siding, and drywall work across central and eastern Missouri communities.</p>
+              <p>Three decades of hands-on roofing and siding work across central and eastern Missouri communities.</p>
             </div>
           </li>
         </ul>
@@ -502,7 +502,7 @@ $schemaMarkup = json_encode([
 <section class="page-cta" aria-label="Call to action">
   <div class="container">
     <h2>Ready to Work with a Contractor <span class="text-accent">Warrenton Has Counted On</span> Since 1995?</h2>
-    <p class="answer-block">CPA Roofing &amp; Construction provides free estimates on every project — roofing, siding, drywall, or storm damage restoration. Licensed, insured, and available seven days a week. Get in touch and we will respond within 48 hours.</p>
+    <p class="answer-block">CPA Roofing &amp; Construction provides free estimates on every project — roofing, siding, or storm damage restoration. Licensed, insured, and available seven days a week. Get in touch and we will respond within 48 hours.</p>
     <a href="/contact/" class="btn btn-primary btn-lg">Get Your Free Estimate</a>
   </div>
 </section>

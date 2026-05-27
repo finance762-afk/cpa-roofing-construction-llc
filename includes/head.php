@@ -10,7 +10,7 @@
 
 // Fallback defaults
 if (!isset($pageTitle))       $pageTitle       = $siteName . ' | ' . ucwords($primaryKeyword);
-if (!isset($pageDescription)) $pageDescription = $siteName . ' provides expert roofing, construction, and drywall services in ' . $address['city'] . ', ' . $address['state'] . '. Licensed contractor since ' . $yearEstablished . '. Call for a free estimate.';
+if (!isset($pageDescription)) $pageDescription = $siteName . ' provides expert roofing, construction, and siding services in ' . $address['city'] . ', ' . $address['state'] . '. Licensed contractor since ' . $yearEstablished . '. Call for a free estimate.';
 if (!isset($canonicalUrl))    $canonicalUrl    = $siteUrl . '/';
 if (!isset($currentPage))     $currentPage     = 'home';
 ?>

@@ -93,7 +93,7 @@ $serviceCards = [
         'icon'    => 'building-2',
         'desc'    => 'Large-scale roofing for warehouses, offices, and retail properties.',
         'bullets' => ['Flat, low-slope & pitched systems', 'Minimal business disruption', 'Code-compliant installations'],
-        'image'   => $photoBase . '1779465576661-1pcsmi-40796539_1098160440333189_6465900146881200128_n.jpg',
+        'image'   => $photoBase . '1779465579158-pcldjp-40867936_1098158017000098_6263165007471575040_n.jpg',
         'alt'     => 'Commercial roofing project completed by CPA Roofing in Warrenton, MO',
     ],
     [
@@ -615,7 +615,7 @@ foreach ($serviceCards as $i => $svc):
         <p>Every commercial project includes a pre-installation structural assessment, manufacturer warranty registration, and a post-install inspection report. We schedule work during low-traffic hours to minimize disruption to your daily operations, and our crews clean the jobsite at the end of each workday.</p>
       </div>
       <div class="service-detail__image">
-        <img src="<?= htmlspecialchars($photoBase) ?>1779465576661-1pcsmi-40796539_1098160440333189_6465900146881200128_n.jpg" alt="CPA Roofing crew completing a commercial roofing project in Warrenton, MO" width="800" height="600" loading="lazy">
+        <img src="<?= htmlspecialchars($photoBase) ?>1779465579158-pcldjp-40867936_1098158017000098_6263165007471575040_n.jpg" alt="CPA Roofing crew completing a commercial roofing project in Warrenton, MO" width="800" height="600" loading="lazy">
       </div>
     </div>
   </div>

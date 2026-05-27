@@ -298,7 +298,7 @@ $schemaMarkup = json_encode([
       <span>Contact</span>
     </nav>
     <h1>Contact <span class="text-accent">CPA Roofing &amp; Construction</span></h1>
-    <p class="hero-answer">Reach CPA Roofing &amp; Construction for a free roofing, siding, or drywall estimate in Warrenton, MO and surrounding communities. Our team is available seven days a week and responds to every inquiry within 48 hours. Fill out the form below or use our contact details to get started on your project.</p>
+    <p class="hero-answer">Reach CPA Roofing &amp; Construction for a free roofing or siding estimate in Warrenton, MO and surrounding communities. Our team is available seven days a week and responds to every inquiry within 48 hours. Fill out the form below or use our contact details to get started on your project.</p>
   </div>
 </section>
 

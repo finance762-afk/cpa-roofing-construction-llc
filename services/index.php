@@ -5,11 +5,11 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/functions.php';
 <?php
 // ── Page Setup ─────────────────────────────────────────────────
 $pageTitle       = 'Roofing & Construction Services | ' . $siteName . ' | Warrenton, MO';
-$pageDescription = 'Explore all 13 roofing, siding, and construction services offered by CPA Roofing & Construction in Warrenton, MO. Licensed since 1995 — residential and commercial. Free estimates.';
+$pageDescription = 'Explore all 11 roofing, siding, and construction services offered by CPA Roofing & Construction in Warrenton, MO. Licensed since 1995 — residential and commercial. Free estimates.';
 $canonicalUrl    = $siteUrl . '/services/';
 $currentPage     = 'services';
 
-$heroImage       = 'https://db.pageone.cloud/storage/v1/object/public/client-assets/cpa-roofing-construction-llc/photos/1779465601794-ybtpm6-502563900_3071585959657284_3188033540827783216_n.jpg';
+$heroImage       = 'https://db.pageone.cloud/storage/v1/object/public/client-assets/cpa-roofing-construction-llc/photos/1779465600430-8y0lga-477796834_1135389874947305_1317857861976220959_n.jpg';
 $heroImagePreload = $heroImage;
 
 // ── Schema ────────────────────────────────────────────────────
@@ -49,7 +49,7 @@ $serviceCards = [
         'icon'    => 'building-2',
         'desc'    => 'Large-scale roofing for warehouses, offices, and retail properties.',
         'bullets' => ['Flat, low-slope & pitched systems', 'Minimal business disruption', 'Code-compliant installations'],
-        'image'   => $photoBase . '1779465576661-1pcsmi-40796539_1098160440333189_6465900146881200128_n.jpg',
+        'image'   => $photoBase . '1779465579158-pcldjp-40867936_1098158017000098_6263165007471575040_n.jpg',
         'alt'     => 'Commercial roofing project completed in Warrenton, MO',
         'link'    => '/services/roofing-services/',
     ],
@@ -124,24 +124,6 @@ $serviceCards = [
         'image'   => $photoBase . '1779465579437-is3xq9-40882613_1098161186999781_153905346983755776_n.jpg',
         'alt'     => 'CPA Roofing contractor services in Warrenton, MO',
         'link'    => '/services/additional-services/',
-    ],
-    [
-        'name'    => 'Drywall Installation',
-        'icon'    => 'layout',
-        'desc'    => 'Interior drywall for new builds, remodels, and storm damage restoration.',
-        'bullets' => ['Smooth, textured & skip-trowel', 'Water-resistant board available', 'Tape, mud & sand included'],
-        'image'   => $photoBase . '1779465577835-ey009e-40848401_1098160610333172_2132106209086406656_n.jpg',
-        'alt'     => 'Drywall installation by CPA Roofing & Construction',
-        'link'    => '/services/drywall-installation/',
-    ],
-    [
-        'name'    => 'Drywall Repair',
-        'icon'    => 'paintbrush',
-        'desc'    => 'Seamless patching for water damage, holes, and cracks.',
-        'bullets' => ['Invisible patch & texture match', 'Water damage restoration', 'Same-day small repairs'],
-        'image'   => $photoBase . '1779465579689-3yzlyg-40910872_1098157970333436_7289550869958230016_n.jpg',
-        'alt'     => 'Drywall repair work by CPA Roofing & Construction',
-        'link'    => '/services/drywall-repair/',
     ],
 ];
 ?>
@@ -237,7 +219,7 @@ $serviceCards = [
       <span>Services</span>
     </nav>
     <h1>Roofing &amp; Construction <span class="text-accent">Services</span> in Warrenton, MO</h1>
-    <p class="hero-answer">CPA Roofing & Construction, LLC provides 13 residential and commercial services across central and eastern Missouri. From full roof replacements to drywall finishing, every project is handled by licensed crews with <?= $yearsInBusiness ?> years of experience. Browse our complete service list below.</p>
+    <p class="hero-answer">CPA Roofing & Construction, LLC provides 11 residential and commercial services across central and eastern Missouri. From full roof replacements to siding installation, every project is handled by licensed crews with <?= $yearsInBusiness ?> years of experience. Browse our complete service list below.</p>
   </div>
 </section>
 
@@ -251,7 +233,7 @@ $serviceCards = [
     <div class="section-title" data-animate>
       <span class="eyebrow-label">What We Do</span>
       <h2>What <span class="text-accent">Roofing &amp; Construction</span> Services Does CPA Offer in Warrenton?</h2>
-      <p class="hero-answer">CPA Roofing & Construction delivers residential and commercial roofing, siding, and drywall services across central Missouri. Each service below links to a detailed page with scope, process, and pricing guidance.</p>
+      <p class="hero-answer">CPA Roofing & Construction delivers residential and commercial roofing and siding services across central Missouri. Each service below links to a detailed page with scope, process, and pricing guidance.</p>
     </div>
 
     <div class="services-grid">
@@ -290,7 +272,7 @@ foreach ($serviceCards as $i => $svc):
 <section class="page-cta" aria-label="Call to action">
   <div class="container">
     <h2>Which Service Do You Need for Your <span class="text-accent">Warrenton Property</span>?</h2>
-    <p class="answer-block">Whether it's a leaking roof, new siding, or drywall finishing, CPA Roofing & Construction has handled thousands of projects since 1995. Get a free estimate with zero obligation — we respond within 48 hours.</p>
+    <p class="answer-block">Whether it's a leaking roof, new siding, or full commercial re-roof, CPA Roofing & Construction has handled thousands of projects since 1995. Get a free estimate with zero obligation — we respond within 48 hours.</p>
     <a href="/contact/" class="btn btn-primary btn-lg">Get Your Free Estimate</a>
   </div>
 </section>

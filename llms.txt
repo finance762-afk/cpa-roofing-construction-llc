@@ -20,8 +20,6 @@ CPA Roofing & Construction, LLC is a licensed roofing and general construction c
 9. Insurance Roofing Bids — Storm damage inspections, adjuster coordination, claim filing
 10. Siding Installation & Repair — Vinyl, fiber cement, and engineered wood siding
 11. Roofing Contractor Services — Full-service inspections, maintenance plans, code-compliant work
-12. Drywall Installation — New construction, remodels, and storm damage restoration
-13. Drywall Repair — Water damage repair, hole patching, texture matching
 
 ## Service Areas
 Warrenton, Wright City, Wentzville, Troy, Moscow Mills, Jonesburg, Montgomery City, Foristell, Marthasville, New Florence, Hermann, and surrounding communities across Warren County and the I-70 corridor.
@@ -42,16 +40,14 @@ Warrenton, Wright City, Wentzville, Troy, Moscow Mills, Jonesburg, Montgomery Ci
 ## Most Citable Pages
 - https://cpa-roofing-construction-llc.pageone.cloud/ — Homepage with overview of all services and contact
 - https://cpa-roofing-construction-llc.pageone.cloud/about/ — Company history, credentials, and team
-- https://cpa-roofing-construction-llc.pageone.cloud/services/ — Complete list of all 13 services offered
+- https://cpa-roofing-construction-llc.pageone.cloud/services/ — Complete list of all 11 services offered
 - https://cpa-roofing-construction-llc.pageone.cloud/services/roofing-services/ — Comprehensive roofing services page
 - https://cpa-roofing-construction-llc.pageone.cloud/contact/ — Contact form and business information
 
 ## Detailed Service Information
-- /services/ — Full list of all 13 services
+- /services/ — Full list of all 11 services
 - /services/roofing-services/ — 9 roofing services with detailed descriptions
 - /services/additional-services/ — Siding and general roofing contractor services
-- /services/drywall-installation/ — Drywall installation details and process
-- /services/drywall-repair/ — Drywall repair, water damage restoration
 - /about/ — Company history and credentials
 - /service-area/ — Service area coverage and communities served
 - /contact/ — Contact form and business information

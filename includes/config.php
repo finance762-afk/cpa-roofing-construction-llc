@@ -111,34 +111,10 @@ $services = [
         'description' => 'Protective roof coating services that extend roof life and improve energy efficiency in Warrenton, MO. Affordable protection against weather and UV damage.',
         'keywords'    => ['roof coating Warrenton MO', 'roof sealant', 'reflective roof coating', 'roof protection'],
     ],
-    [
-        'name'        => 'Drywall Installation',
-        'slug'        => 'drywall-installation',
-        'description' => 'Professional drywall installation for residential and commercial interiors in Warrenton, MO. Quality craftsmanship for finished walls and ceilings.',
-        'keywords'    => ['drywall installation Warrenton MO', 'drywall contractor', 'interior drywall', 'commercial drywall'],
-    ],
-    [
-        'name'        => 'Drywall Repair',
-        'slug'        => 'drywall-repair',
-        'description' => 'Expert drywall repair services for water damage, holes, and cracks in Warrenton, MO. Professional finishing for seamless results.',
-        'keywords'    => ['drywall repair Warrenton MO', 'drywall patch repair', 'water damage drywall', 'interior repair'],
-    ],
 ];
 
 // ── Service Grouping (page structure) ───────────────────────
 $serviceGroups = [
-    [
-        'page'     => 'Drywall Installation',
-        'slug'     => 'drywall-installation',
-        'solo'     => true,
-        'services' => ['Drywall Installation'],
-    ],
-    [
-        'page'     => 'Drywall Repair',
-        'slug'     => 'drywall-repair',
-        'solo'     => true,
-        'services' => ['Drywall Repair'],
-    ],
     [
         'page'     => 'Roofing Services',
         'slug'     => 'roofing-services',
@@ -212,4 +188,4 @@ $businessAddress = trim(implode(', ', array_filter([
 ])));
 
 // ── CSS Version (increment on every styles.css change) ──────
-$cssVersion = '3';
+$cssVersion = '4';

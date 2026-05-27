@@ -145,7 +145,7 @@ $lastUpdated     = 'April 24, 2026';
       <p>By accessing and using the website of <?php echo htmlspecialchars($siteName); ?> ("Company," "we," "us," or "our"), a <?php echo htmlspecialchars($entityType); ?> organized under the laws of the State of <?php echo htmlspecialchars($stateOfFormation); ?>, located in <?php echo htmlspecialchars($businessAddress); ?>, you ("User," "you," or "your") agree to be bound by these Terms of Service ("Terms"). If you do not agree to these Terms, you must not use the Site.</p>
 
       <h2>Description of Services</h2>
-      <p><?php echo htmlspecialchars($siteName); ?> provides roofing, construction, siding, and drywall services for residential and commercial properties in Warrenton, Missouri and surrounding areas. Our website provides information about our services, allows visitors to request estimates, and facilitates communication with our team. The Site does not constitute an offer to perform services in any jurisdiction where such services would be unlawful.</p>
+      <p><?php echo htmlspecialchars($siteName); ?> provides roofing, construction, and siding services for residential and commercial properties in Warrenton, Missouri and surrounding areas. Our website provides information about our services, allows visitors to request estimates, and facilitates communication with our team. The Site does not constitute an offer to perform services in any jurisdiction where such services would be unlawful.</p>
 
       <h2>Use of Website</h2>
       <p>You agree to use the Site only for lawful purposes and in compliance with these Terms. You must not:</p>

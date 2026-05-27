@@ -33,22 +33,6 @@
     <priority>0.8</priority>
   </url>
 
-  <!-- Drywall Installation -->
-  <url>
-    <loc>https://cpa-roofing-construction-llc.pageone.cloud/services/drywall-installation/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- Drywall Repair -->
-  <url>
-    <loc>https://cpa-roofing-construction-llc.pageone.cloud/services/drywall-repair/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
   <!-- Service Area -->
   <url>
     <loc>https://cpa-roofing-construction-llc.pageone.cloud/service-area/</loc>

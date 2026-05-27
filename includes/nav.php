@@ -29,7 +29,7 @@
         <!-- Desktop CTA -->
         <div class="header-cta">
 <?php if (!empty($phone)): ?>
-          <a href="tel:<?php echo phoneLink($phone); ?>" class="btn btn-outline-white btn-sm">
+          <a href="tel:<?php echo phoneLink($phone); ?>" class="btn btn-primary btn-sm">
             <i data-lucide="phone" style="width:16px;height:16px"></i>
             <?php echo formatPhone($phone); ?>
           </a>
