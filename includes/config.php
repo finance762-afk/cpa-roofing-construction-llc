@@ -10,7 +10,7 @@ $tagline        = 'Your Roof, Our Commitment';
 $industry       = 'roofing';
 
 // ── Contact ─────────────────────────────────────────────────
-$phone          = '(636) 359-7252';
+$phone          = '(636) 359-0003';
 $phoneSecondary = '';
 $email          = 'cparoofing@gmail.com';
 
