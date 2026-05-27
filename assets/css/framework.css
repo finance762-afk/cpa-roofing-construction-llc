@@ -418,6 +418,20 @@ section { padding: var(--space-16) 0; }
 .ticker-track span { font-family: var(--font-heading); font-size: var(--font-size-sm); font-weight: 600; color: var(--color-white); text-transform: uppercase; letter-spacing: 1px; }
 @keyframes ticker-scroll { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }
 
+/* Mobile: static centered grid, no scroll animation */
+@media (max-width: 768px) {
+  .ticker-strip { padding: var(--space-4) var(--space-4); }
+  .ticker-track {
+    animation: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    white-space: normal;
+    gap: var(--space-2) var(--space-5);
+  }
+  /* Hide duplicate items (second set used only for seamless loop) */
+  .ticker-track span:nth-child(n+10) { display: none; }
+}
+
 /* === Back to Top === */
 .back-to-top {
   position: fixed; bottom: var(--space-8); right: var(--space-8); z-index: 999;

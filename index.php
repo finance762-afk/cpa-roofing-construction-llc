@@ -472,9 +472,11 @@ $schemaMarkup = json_encode($faqSchema, JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRI
 @media (max-width: 768px) {
   .hero-split {
     grid-template-columns: 1fr;
-    min-height: auto;
-    padding-top: 100px;
-    padding-bottom: var(--space-8);
+    min-height: 100svh;
+    padding-top: 90px;
+    padding-bottom: var(--space-10);
+    background-position: top center;
+    align-items: center;
   }
   .hero-text {
     text-align: center;
@@ -490,9 +492,9 @@ $schemaMarkup = json_encode($faqSchema, JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRI
   .hero-trust {
     justify-content: center;
   }
+  /* Hide form card on mobile — hero fills one full screen cleanly */
   .hero-form-card {
-    max-width: 480px;
-    margin: 0 auto;
+    display: none;
   }
   .process-steps {
     grid-template-columns: 1fr;
@@ -594,20 +596,20 @@ $schemaMarkup = json_encode($faqSchema, JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRI
       <fieldset class="form-consent-fieldset" style="border:none;padding:0;margin:var(--space-3) 0 0;">
         <label class="form-consent-item" style="display:flex;gap:var(--space-2);align-items:flex-start;margin-bottom:var(--space-2);cursor:pointer;">
           <input type="checkbox" name="email_opt_in" value="yes" class="consent-checkbox" style="flex-shrink:0;width:16px;height:16px;margin-top:2px;accent-color:var(--color-accent);">
-          <span style="font-size:var(--font-size-xs);color:rgba(255,255,255,0.6);line-height:1.4;">
-            <strong style="color:rgba(255,255,255,0.8);">Email updates (optional):</strong> I agree to receive emails from <?= htmlspecialchars($siteName) ?> about my inquiry and services. Unsubscribe anytime.
+          <span style="font-size:var(--font-size-xs);color:var(--color-gray-dark);line-height:1.4;">
+            <strong style="color:var(--color-dark);">Email updates (optional):</strong> I agree to receive emails from <?= htmlspecialchars($siteName) ?> about my inquiry and services. Unsubscribe anytime.
           </span>
         </label>
         <label class="form-consent-item" style="display:flex;gap:var(--space-2);align-items:flex-start;margin-bottom:var(--space-2);cursor:pointer;">
           <input type="checkbox" name="sms_opt_in" value="yes" class="consent-checkbox" style="flex-shrink:0;width:16px;height:16px;margin-top:2px;accent-color:var(--color-accent);">
-          <span style="font-size:var(--font-size-xs);color:rgba(255,255,255,0.6);line-height:1.4;">
-            <strong style="color:rgba(255,255,255,0.8);">SMS/Text (optional):</strong> I agree to receive texts from <?= htmlspecialchars($siteName) ?>. Msg &amp; data rates may apply. Reply STOP to opt out. <strong style="color:rgba(255,255,255,0.8);">Consent is not a condition of purchase.</strong>
+          <span style="font-size:var(--font-size-xs);color:var(--color-gray-dark);line-height:1.4;">
+            <strong style="color:var(--color-dark);">SMS/Text (optional):</strong> I agree to receive texts from <?= htmlspecialchars($siteName) ?>. Msg &amp; data rates may apply. Reply STOP to opt out. <strong style="color:var(--color-dark);">Consent is not a condition of purchase.</strong>
           </span>
         </label>
         <label class="form-consent-item" style="display:flex;gap:var(--space-2);align-items:flex-start;cursor:pointer;">
           <input type="checkbox" name="terms_accepted" value="yes" class="consent-checkbox" required style="flex-shrink:0;width:16px;height:16px;margin-top:2px;accent-color:var(--color-accent);">
-          <span style="font-size:var(--font-size-xs);color:rgba(255,255,255,0.6);line-height:1.4;">
-            I agree to the <a href="/privacy-policy/" style="color:rgba(255,255,255,0.8);text-decoration:underline;">Privacy Policy</a> and <a href="/terms/" style="color:rgba(255,255,255,0.8);text-decoration:underline;">Terms of Service</a>. <span style="color:var(--color-accent);font-weight:700;">*</span>
+          <span style="font-size:var(--font-size-xs);color:var(--color-gray-dark);line-height:1.4;">
+            I agree to the <a href="/privacy-policy/" style="color:var(--color-accent);text-decoration:underline;">Privacy Policy</a> and <a href="/terms/" style="color:var(--color-accent);text-decoration:underline;">Terms of Service</a>. <span style="color:var(--color-danger);font-weight:700;">*</span>
           </span>
         </label>
       </fieldset>
