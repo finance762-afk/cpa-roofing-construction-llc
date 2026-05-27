@@ -10,9 +10,9 @@ $tagline        = 'Your Roof, Our Commitment';
 $industry       = 'roofing';
 
 // ── Contact ─────────────────────────────────────────────────
-$phone          = '(636) 207-3849';
+$phone          = '(636) 359-7252';
 $phoneSecondary = '';
-$email          = 'info@cpa-roofing.com';
+$email          = 'cparoofing@gmail.com';
 
 // ── Address ─────────────────────────────────────────────────
 $address = [
@@ -188,4 +188,4 @@ $businessAddress = trim(implode(', ', array_filter([
 ])));
 
 // ── CSS Version (increment on every styles.css change) ──────
-$cssVersion = '4';
+$cssVersion = '5';

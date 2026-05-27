@@ -508,9 +508,22 @@ $schemaMarkup = json_encode($faqSchema, JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRI
     display: inline-block;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 480px) {
   .home-services .services-grid {
     grid-template-columns: 1fr;
+  }
+  /* Reduce hero form card padding on small screens */
+  .hero-form-card {
+    padding: var(--space-5);
+  }
+  /* Stack hero action buttons vertically */
+  .hero-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .hero-actions .btn {
+    text-align: center;
+    justify-content: center;
   }
 }
 </style>

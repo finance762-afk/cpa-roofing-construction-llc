@@ -583,7 +583,7 @@ section { padding: var(--space-16) 0; }
 
 /* === Cookie Banner === */
 .cookie-banner {
-  position: fixed; bottom: 70px; left: 0; right: 0; z-index: 997;
+  position: fixed; bottom: 0; left: 0; right: 0; z-index: 997;
   background: var(--color-dark); color: rgba(255,255,255,0.9);
   padding: var(--space-4); box-shadow: 0 -2px 20px rgba(0,0,0,0.2);
   transform: translateY(100%); transition: transform var(--transition-base);
@@ -621,6 +621,9 @@ section { padding: var(--space-16) 0; }
   .mobile-cta-bar { display: block; }
   body { padding-bottom: 60px; }
   .cookie-banner { bottom: 60px; }
+
+  /* Push back-to-top above mobile CTA bar */
+  .back-to-top { bottom: calc(60px + var(--space-4)); }
 }
 
 /* === Responsive: Mobile (480px) === */
@@ -636,4 +639,31 @@ section { padding: var(--space-16) 0; }
   .btn-lg { padding: var(--space-3) var(--space-6); font-size: var(--font-size-sm); }
   .footer-legal-row .divider { display: none; }
   .footer-legal-row a { display: block; padding: var(--space-1) 0; }
+
+  /* Tighten card padding on small screens */
+  .service-card-with-image .service-card__body { padding: var(--space-5) var(--space-3) var(--space-3); }
+  .faq-item { padding: var(--space-4); }
+  .review-card { padding: var(--space-4); }
+}
+
+/* === Responsive: Small phones (375px) === */
+@media (max-width: 375px) {
+  /* Reduce hero padding to prevent content cramping */
+  .hero, .hero-split { padding-top: 90px !important; }
+
+  /* Shrink section padding on very small screens */
+  section { padding: clamp(2.5rem, 8vh, 4rem) 0; }
+
+  /* Reduce stats font size to prevent overflow */
+  .stat-item .stat-number { font-size: var(--font-size-4xl); }
+
+  /* Mobile menu link size for tiny screens */
+  .mobile-menu__links > li > a { font-size: var(--font-size-2xl); }
+
+  /* Stack footer trust badges */
+  .footer-trust { flex-direction: column; gap: var(--space-2); }
+
+  /* Ensure buttons don't overflow */
+  .btn-lg { width: 100%; justify-content: center; }
+  .hero-actions { flex-direction: column; }
 }
