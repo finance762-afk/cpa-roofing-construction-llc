@@ -381,18 +381,18 @@ section { padding: var(--space-16) 0; }
 .faq-item p { color: var(--color-gray); font-size: var(--font-size-sm); margin: 0; }
 
 /* === Footer === */
-.site-footer { background: var(--color-dark); color: rgba(255,255,255,0.8); padding: var(--space-16) 0 var(--space-8); }
+.site-footer { background: var(--color-white); color: var(--color-dark); padding: var(--space-16) 0 var(--space-8); }
 .footer-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: var(--space-8); margin-bottom: var(--space-12); }
-.footer-col h4 { color: var(--color-white); font-size: var(--font-size-base); margin-bottom: var(--space-4); }
+.footer-col h4 { color: var(--color-dark); font-size: var(--font-size-base); margin-bottom: var(--space-4); }
 .footer-col ul { list-style: none; }
 .footer-col ul li { margin-bottom: var(--space-2); }
-.footer-col ul a { color: rgba(255,255,255,0.7); font-size: var(--font-size-sm); transition: color var(--transition-fast); }
+.footer-col ul a { color: rgba(0,0,0,0.6); font-size: var(--font-size-sm); transition: color var(--transition-fast); }
 .footer-col ul a:hover { color: var(--color-accent); }
 .footer-col p { font-size: var(--font-size-sm); line-height: 1.8; }
 .footer-col .contact-item { display: flex; align-items: center; gap: var(--space-2); margin-bottom: var(--space-2); font-size: var(--font-size-sm); }
 
 /* AEO Entity Block */
-.aeo-entity { background: rgba(255,255,255,0.05); border-radius: var(--radius-md); padding: var(--space-4); margin-top: var(--space-4); }
+.aeo-entity { background: rgba(0,0,0,0.04); border-radius: var(--radius-md); padding: var(--space-4); margin-top: var(--space-4); }
 .aeo-entity h4 { font-size: var(--font-size-sm); margin-bottom: var(--space-2); }
 
 /* Trust Badges */
@@ -400,14 +400,14 @@ section { padding: var(--space-16) 0; }
 .trust-badge {
   display: inline-flex; align-items: center; gap: var(--space-1);
   padding: var(--space-1) var(--space-3); border-radius: var(--radius-full);
-  background: rgba(255,255,255,0.1); font-size: var(--font-size-xs); color: rgba(255,255,255,0.8);
+  background: rgba(0,0,0,0.06); font-size: var(--font-size-xs); color: var(--color-dark);
 }
 
 .footer-bottom {
-  border-top: 1px solid rgba(255,255,255,0.1); padding-top: var(--space-6);
+  border-top: 1px solid rgba(0,0,0,0.1); padding-top: var(--space-6);
   display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: var(--space-4);
 }
-.footer-bottom p { font-size: var(--font-size-sm); margin: 0; color: rgba(255,255,255,0.5); }
+.footer-bottom p { font-size: var(--font-size-sm); margin: 0; color: rgba(0,0,0,0.5); }
 .footer-credit a { color: var(--color-accent); }
 
 /* === Ticker Strip === */
@@ -556,15 +556,15 @@ section { padding: var(--space-16) 0; }
 /* === Footer Legal Row === */
 .footer-legal-row {
   text-align: center; padding: var(--space-4) 0; margin-bottom: var(--space-4);
-  border-bottom: 1px solid rgba(255,255,255,0.1);
+  border-bottom: 1px solid rgba(0,0,0,0.1);
   font-size: var(--font-size-xs); line-height: 1.8;
 }
 .footer-legal-row a {
-  color: rgba(255,255,255,0.6); transition: color var(--transition-fast);
+  color: rgba(0,0,0,0.6); transition: color var(--transition-fast);
 }
 .footer-legal-row a:hover { color: var(--color-accent); }
 .footer-legal-row .divider {
-  color: rgba(255,255,255,0.25); margin: 0 var(--space-2);
+  color: rgba(0,0,0,0.25); margin: 0 var(--space-2);
 }
 
 /* === Legal Pages === */
