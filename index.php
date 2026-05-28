@@ -171,10 +171,9 @@ $schemaMarkup = json_encode($faqSchema, JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRI
 .hero-split {
   position: relative;
   min-height: 100vh;
-  display: grid;
-  grid-template-columns: 1.1fr 0.9fr;
+  display: flex;
   align-items: center;
-  gap: var(--space-8);
+  justify-content: center;
   padding: 120px clamp(1rem, 4vw, 2rem) var(--space-16);
   background-size: cover;
   background-position: center;
@@ -196,15 +195,16 @@ $schemaMarkup = json_encode($faqSchema, JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRI
   z-index: 1;
   pointer-events: none;
 }
-.hero-text,
-.hero-form-card {
+.hero-text {
   position: relative;
   z-index: 2;
 }
 
 /* ── Hero Text Column ───────────────────────────────────────── */
 .hero-text {
-  max-width: 600px;
+  max-width: 820px;
+  text-align: center;
+  margin: 0 auto;
 }
 .hero-text .hero-eyebrow {
   display: inline-flex;
@@ -214,7 +214,7 @@ $schemaMarkup = json_encode($faqSchema, JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRI
   border: 1px solid rgba(255,255,255,0.2);
 }
 .hero-text h1 {
-  font-size: clamp(2.25rem, 5vw, 3.75rem);
+  font-size: clamp(2.5rem, 5.5vw, 4.25rem);
   color: var(--color-white);
   margin-bottom: var(--space-4);
   line-height: 1.08;
@@ -226,19 +226,30 @@ $schemaMarkup = json_encode($faqSchema, JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRI
   color: rgba(255,255,255,0.9);
   font-size: var(--font-size-lg);
   line-height: 1.7;
-  margin-bottom: var(--space-6);
-  max-width: 520px;
+  margin-bottom: var(--space-8);
+  max-width: 660px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .hero-actions {
   display: flex;
-  gap: var(--space-4);
+  gap: var(--space-5);
   flex-wrap: wrap;
-  margin-bottom: var(--space-8);
+  justify-content: center;
+  margin-bottom: var(--space-10);
+}
+/* Hero CTA buttons — larger than standard btn-lg */
+.hero-actions .btn {
+  padding: var(--space-5) var(--space-10);
+  font-size: 1.2rem;
+  min-width: 230px;
+  letter-spacing: 0.01em;
 }
 .hero-trust {
   display: flex;
   gap: var(--space-6);
   flex-wrap: wrap;
+  justify-content: center;
 }
 .hero-trust-item {
   display: flex;
@@ -249,72 +260,6 @@ $schemaMarkup = json_encode($faqSchema, JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRI
   font-weight: 500;
 }
 
-/* ── Hero Form Card (Glassmorphism) ─────────────────────────── */
-.hero-form-card {
-  background: rgba(255,255,255,0.1);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
-  border: 1px solid rgba(255,255,255,0.2);
-  border-radius: var(--radius-xl);
-  padding: var(--space-8);
-  box-shadow: 0 8px 32px rgba(0,0,0,0.25);
-}
-.hero-form-card h2 {
-  color: var(--color-white);
-  font-size: var(--font-size-2xl);
-  margin-bottom: var(--space-2);
-}
-.hero-form-tagline {
-  color: rgba(255,255,255,0.75);
-  font-size: var(--font-size-sm);
-  margin-bottom: var(--space-6);
-}
-.hero-form .form-row {
-  margin-bottom: var(--space-3);
-}
-.hero-form input,
-.hero-form select {
-  width: 100%;
-  padding: var(--space-4);
-  border: 2px solid rgba(255,255,255,0.15);
-  border-radius: var(--radius-md);
-  background: rgba(255,255,255,0.08);
-  color: var(--color-white);
-  font-family: var(--font-body);
-  font-size: var(--font-size-base);
-  transition: border-color var(--transition-fast);
-}
-.hero-form input::placeholder,
-.hero-form select {
-  color: rgba(255,255,255,0.55);
-}
-.hero-form select option {
-  background: var(--color-dark);
-  color: var(--color-white);
-}
-.hero-form input:focus,
-.hero-form select:focus {
-  border-color: var(--color-accent);
-  outline: none;
-  background: rgba(255,255,255,0.12);
-}
-.hero-form .btn-block {
-  width: 100%;
-  margin-top: var(--space-2);
-  padding: var(--space-4);
-  font-size: var(--font-size-base);
-}
-.form-footnote {
-  font-size: var(--font-size-xs);
-  color: rgba(255,255,255,0.5);
-  text-align: center;
-  margin-top: var(--space-3);
-  margin-bottom: 0;
-}
-.form-footnote a {
-  color: rgba(255,255,255,0.7);
-  text-decoration: underline;
-}
 
 /* ── Section Dividers ───────────────────────────────────────── */
 .divider-wave,
@@ -471,30 +416,13 @@ $schemaMarkup = json_encode($faqSchema, JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRI
 }
 @media (max-width: 768px) {
   .hero-split {
-    grid-template-columns: 1fr;
     min-height: 100svh;
     padding-top: 90px;
     padding-bottom: var(--space-10);
     background-position: top center;
-    align-items: center;
   }
   .hero-text {
-    text-align: center;
     max-width: 100%;
-  }
-  .hero-subtitle {
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .hero-actions {
-    justify-content: center;
-  }
-  .hero-trust {
-    justify-content: center;
-  }
-  /* Hide form card on mobile — hero fills one full screen cleanly */
-  .hero-form-card {
-    display: none;
   }
   .process-steps {
     grid-template-columns: 1fr;
@@ -514,11 +442,7 @@ $schemaMarkup = json_encode($faqSchema, JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRI
   .home-services .services-grid {
     grid-template-columns: 1fr;
   }
-  /* Reduce hero form card padding on small screens */
-  .hero-form-card {
-    padding: var(--space-5);
-  }
-  /* Stack hero action buttons vertically */
+  /* Stack hero action buttons vertically on small screens */
   .hero-actions {
     flex-direction: column;
     align-items: stretch;
@@ -526,13 +450,14 @@ $schemaMarkup = json_encode($faqSchema, JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRI
   .hero-actions .btn {
     text-align: center;
     justify-content: center;
+    min-width: unset;
   }
 }
 </style>
 
 
 <!-- ═══════════════════════════════════════════════════════════════
-     HERO — 60/40 Split with Lead-Capture Form
+     HERO — Full-Width Centered
      ═══════════════════════════════════════════════════════════════ -->
 <section class="hero hero-split" style="background-image: url('<?= htmlspecialchars($heroImage) ?>');" aria-label="CPA Roofing & Construction homepage hero">
 
@@ -546,10 +471,10 @@ $schemaMarkup = json_encode($faqSchema, JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRI
       CPA Roofing & Construction has protected Missouri homes and businesses for <?= $yearsInBusiness ?> years. From storm damage restoration to full commercial roof systems, we handle every project with the same standard — honest work, fair pricing, and results that last.
     </p>
     <div class="hero-actions">
-      <a href="#estimate-form" class="btn btn-primary btn-lg">Get a Free Estimate</a>
+      <a href="/contact/" class="btn btn-primary btn-lg">Get a Free Estimate</a>
 <?php if (!empty($phone)): ?>
       <a href="tel:<?= phoneLink($phone) ?>" class="btn btn-outline-white btn-lg">
-        <i data-lucide="phone" style="width:18px;height:18px"></i> Call <?= formatPhone($phone) ?>
+        <i data-lucide="phone" style="width:20px;height:20px"></i> Call <?= formatPhone($phone) ?>
       </a>
 <?php endif; ?>
     </div>
@@ -560,63 +485,6 @@ $schemaMarkup = json_encode($faqSchema, JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRI
       <span class="hero-trust-item"><i data-lucide="calendar" style="width:16px;height:16px"></i> 7 Days a Week</span>
     </div>
   </div>
-
-  <aside class="hero-form-card" id="estimate-form">
-    <h2>Ready to Get Your Free Estimate?</h2>
-    <p class="hero-form-tagline">No obligation. Same-day response.</p>
-    <form action="<?= htmlspecialchars($formAction) ?>" method="POST" class="hero-form">
-      <input type="text" name="_honey" style="display:none !important" tabindex="-1" autocomplete="off" aria-hidden="true">
-      <input type="hidden" name="_next" value="/thank-you">
-      <input type="hidden" name="_form_location" value="hero">
-      <input type="hidden" name="_consent_version" value="v2.1">
-      <input type="hidden" name="_consent_page" value="<?= htmlspecialchars($_SERVER['REQUEST_URI']) ?>">
-      <div class="form-row">
-        <input type="text" name="name" placeholder="Full name" required>
-      </div>
-      <div class="form-row">
-        <input type="email" name="email" placeholder="Email address" required>
-      </div>
-      <div class="form-row">
-        <input type="tel" name="phone" placeholder="Phone number" required>
-      </div>
-      <div class="form-row">
-        <select name="service">
-          <option value="">What do you need?</option>
-          <option value="New Roof Installation">New Roof Installation</option>
-          <option value="Roof Repairs">Roof Repair</option>
-          <option value="Commercial Roofing">Commercial Roofing</option>
-          <option value="Metal Roofing">Metal Roofing</option>
-          <option value="TPO Roofing">TPO Roofing</option>
-          <option value="Insurance Roofing Bids">Insurance / Storm Damage</option>
-          <option value="Siding Installation & Repair">Siding</option>
-          <option value="Other">Other</option>
-        </select>
-      </div>
-
-      <fieldset class="form-consent-fieldset" style="border:none;padding:0;margin:var(--space-3) 0 0;">
-        <label class="form-consent-item" style="display:flex;gap:var(--space-2);align-items:flex-start;margin-bottom:var(--space-2);cursor:pointer;">
-          <input type="checkbox" name="email_opt_in" value="yes" class="consent-checkbox" style="flex-shrink:0;width:16px;height:16px;margin-top:2px;accent-color:var(--color-accent);">
-          <span style="font-size:var(--font-size-xs);color:var(--color-gray-dark);line-height:1.4;">
-            <strong style="color:var(--color-dark);">Email updates (optional):</strong> I agree to receive emails from <?= htmlspecialchars($siteName) ?> about my inquiry and services. Unsubscribe anytime.
-          </span>
-        </label>
-        <label class="form-consent-item" style="display:flex;gap:var(--space-2);align-items:flex-start;margin-bottom:var(--space-2);cursor:pointer;">
-          <input type="checkbox" name="sms_opt_in" value="yes" class="consent-checkbox" style="flex-shrink:0;width:16px;height:16px;margin-top:2px;accent-color:var(--color-accent);">
-          <span style="font-size:var(--font-size-xs);color:var(--color-gray-dark);line-height:1.4;">
-            <strong style="color:var(--color-dark);">SMS/Text (optional):</strong> I agree to receive texts from <?= htmlspecialchars($siteName) ?>. Msg &amp; data rates may apply. Reply STOP to opt out. <strong style="color:var(--color-dark);">Consent is not a condition of purchase.</strong>
-          </span>
-        </label>
-        <label class="form-consent-item" style="display:flex;gap:var(--space-2);align-items:flex-start;cursor:pointer;">
-          <input type="checkbox" name="terms_accepted" value="yes" class="consent-checkbox" required style="flex-shrink:0;width:16px;height:16px;margin-top:2px;accent-color:var(--color-accent);">
-          <span style="font-size:var(--font-size-xs);color:var(--color-gray-dark);line-height:1.4;">
-            I agree to the <a href="/privacy-policy/" style="color:var(--color-accent);text-decoration:underline;">Privacy Policy</a> and <a href="/terms/" style="color:var(--color-accent);text-decoration:underline;">Terms of Service</a>. <span style="color:var(--color-danger);font-weight:700;">*</span>
-          </span>
-        </label>
-      </fieldset>
-
-      <button type="submit" class="btn btn-primary btn-block">Get My Free Estimate</button>
-    </form>
-  </aside>
 
 </section>
 
@@ -748,7 +616,7 @@ foreach ($homepageServices as $i => $svc):
     <h2>Is Your Missouri Roof Ready for Storm Season?</h2>
     <p>Hail, wind, and ice cause billions in roof damage across Missouri every year. A free inspection today can save thousands in emergency repairs tomorrow. CPA Roofing responds within 48 hours — call or request your estimate now.</p>
     <div>
-      <a href="#estimate-form" class="btn btn-primary btn-lg">Schedule Free Inspection</a>
+      <a href="/contact/" class="btn btn-primary btn-lg">Schedule Free Inspection</a>
 <?php if (!empty($phone)): ?>
       <a href="tel:<?= phoneLink($phone) ?>" class="btn btn-outline-white btn-lg" style="margin-left:var(--space-4);">
         <i data-lucide="phone" style="width:18px;height:18px"></i> Call Now
@@ -900,7 +768,7 @@ foreach ($homepageServices as $i => $svc):
   <div class="container">
     <h2>Why Should You Choose a Roofing Contractor <span class="text-accent">Warrenton Trusts</span>?</h2>
     <p>From the first phone call to the final walkthrough, CPA Roofing & Construction delivers the craftsmanship and communication your project deserves. Licensed, insured, and available seven days a week.</p>
-    <a href="#estimate-form" class="btn btn-primary btn-lg">Get Your Free Estimate</a>
+    <a href="/contact/" class="btn btn-primary btn-lg">Get Your Free Estimate</a>
   </div>
 </section>
 
