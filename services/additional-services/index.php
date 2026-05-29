@@ -83,7 +83,7 @@ $faqs = [
     ],
     [
         'question' => 'What areas near Warrenton does CPA Roofing & Construction serve?',
-        'answer'   => 'We serve Warrenton and the broader Warren County area, including Wright City, Truesdale, Marthasville, and surrounding communities in central and eastern Missouri. Our crews regularly work within a 50-mile radius of Warrenton for both residential and commercial projects.',
+        'answer'   => 'We serve Innsbrook, Foristell, Wentzville, and Lake St. Louis for both residential and commercial roofing and construction projects.',
     ],
 ];
 

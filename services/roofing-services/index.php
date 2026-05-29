@@ -64,7 +64,7 @@ $faqs = [
     ],
     [
         'question' => 'Does CPA Roofing handle insurance claims for storm damage?',
-        'answer'   => 'Yes. CPA Roofing provides free storm damage inspections and prepares detailed insurance roofing bids. We coordinate directly with your adjuster, document all damage with photos, and advocate for full coverage of necessary repairs or replacement.',
+        'answer'   => 'Yes. As insurance claim specialists experienced in policyholder representation, CPA Roofing provides free storm damage inspections and detailed insurance roofing bids. We represent property owners directly with their adjuster — documenting all damage with photos, preparing the full scope of work, and advocating for complete coverage of necessary repairs or replacement.',
     ],
     [
         'question' => 'What roofing materials work best for Warrenton\'s climate?',
@@ -115,8 +115,8 @@ $serviceCards = [
     [
         'name'    => 'Insurance Roofing Bids',
         'icon'    => 'file-text',
-        'desc'    => 'We handle the insurance paperwork so you focus on your family.',
-        'bullets' => ['Free storm damage inspections', 'Direct adjuster coordination', 'Maximize your claim payout'],
+        'desc'    => 'Insurance claim specialists — we represent property owners throughout the entire claims process.',
+        'bullets' => ['Free storm damage inspections', 'Policyholder representation with adjusters', 'Maximize your claim payout'],
         'image'   => $photoBase . '1779465578117-ahpx0j-40855264_1098160506999849_1343386300408922112_n.jpg',
         'alt'     => 'Insurance roofing bid assessment by CPA Roofing in Warrenton',
     ],

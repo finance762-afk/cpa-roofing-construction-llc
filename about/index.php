@@ -338,9 +338,9 @@ $schemaMarkup = json_encode([
         <span class="eyebrow-label">Our Story</span>
         <h2>How Did CPA Roofing Become Warrenton's <span class="text-accent">Go-To Contractor</span> Over <?= $yearsInBusiness ?> Years?</h2>
         <p class="answer-block">CPA Roofing &amp; Construction was founded in 1995 in Warrenton, Missouri, with a straightforward mission: deliver reliable roofing and construction work at fair prices. Over three decades, that commitment has grown the company from a small residential crew into a full-service contractor handling everything from commercial TPO systems to insurance-based storm restoration.</p>
-        <p>The Warrenton area sits along the I-70 corridor in Warren County, where Missouri weather delivers its full range — spring hailstorms, summer downpours, ice dams in winter. That exposure shaped the way CPA operates. Every crew member understands the local conditions that damage roofs, and every repair or installation is built to withstand what Missouri brings next.</p>
-        <p>Over the years, CPA expanded beyond residential shingle work into commercial roofing, metal roofing, TPO membrane systems, and siding. The company also developed deep expertise in insurance claims, helping hundreds of property owners navigate the paperwork after storm damage and secure fair payouts from their carriers.</p>
-        <p>Today, CPA Roofing &amp; Construction serves Warrenton and communities within a 50-mile radius — Wright City, Wentzville, Troy, Moscow Mills, and beyond. The crew is available seven days a week, and every estimate is free with zero obligation.</p>
+        <p>The Innsbrook, Foristell, Wentzville, and Lake St. Louis area experiences Missouri's full weather range — spring hailstorms, summer downpours with straight-line winds, and winter ice dams. That exposure shaped the way CPA operates. Every crew member understands the local conditions that damage roofs, and every repair or installation is built to withstand what Missouri brings next.</p>
+        <p>Over the years, CPA expanded beyond residential shingle work into commercial roofing, metal roofing, TPO membrane systems, and siding. The company also developed deep expertise as insurance claim specialists, helping hundreds of property owners navigate the claims process after storm damage and representing them directly with their insurance carriers to secure full and fair payouts.</p>
+        <p>Today, CPA Roofing &amp; Construction serves Innsbrook, Foristell, Wentzville, and Lake St. Louis. The crew is available seven days a week, and every estimate is free with zero obligation.</p>
       </div>
 
       <div class="about-story-visual" data-animate>
@@ -443,8 +443,8 @@ $schemaMarkup = json_encode([
           <li>
             <span class="cred-icon"><i data-lucide="file-text"></i></span>
             <div>
-              <h4>Insurance Claim Specialists</h4>
-              <p>Hundreds of successful storm damage claims filed and coordinated with adjusters across Missouri since 1995.</p>
+              <h4>Insurance Claim Specialists &amp; Experienced in Policyholder Representation</h4>
+              <p>Hundreds of successful storm damage claims filed since 1995. We represent property owners throughout the insurance process — inspecting damage, documenting scope, coordinating with adjusters, and advocating for full and fair coverage.</p>
             </div>
           </li>
           <li>
@@ -471,21 +471,14 @@ $schemaMarkup = json_encode([
     <div class="section-title" data-animate>
       <span class="eyebrow-label">Where We Work</span>
       <h2>What Areas Does CPA Roofing <span class="text-accent">Serve</span> Around Warrenton?</h2>
-      <p class="answer-block">CPA Roofing &amp; Construction serves Warrenton, MO and every community within a 50-mile radius. That includes Wright City, Wentzville, Troy, Moscow Mills, Jonesburg, Montgomery City, Foristell, Marthasville, New Florence, Hermann, and surrounding Warren County. If your property is along the I-70 corridor or Highway 47, we are likely already working in your area.</p>
+      <p class="answer-block">CPA Roofing &amp; Construction serves Innsbrook, Foristell, Wentzville, and Lake St. Louis. As licensed insurance claim specialists, we are experienced in representing property owners in their insurance claims — from the initial storm damage inspection through final adjuster settlement — across all four service communities.</p>
     </div>
 
     <div class="area-tags" data-animate>
-      <span class="area-tag"><i data-lucide="map-pin"></i> Warrenton</span>
-      <span class="area-tag"><i data-lucide="map-pin"></i> Wright City</span>
-      <span class="area-tag"><i data-lucide="map-pin"></i> Wentzville</span>
-      <span class="area-tag"><i data-lucide="map-pin"></i> Troy</span>
-      <span class="area-tag"><i data-lucide="map-pin"></i> Moscow Mills</span>
-      <span class="area-tag"><i data-lucide="map-pin"></i> Jonesburg</span>
-      <span class="area-tag"><i data-lucide="map-pin"></i> Montgomery City</span>
+      <span class="area-tag"><i data-lucide="map-pin"></i> Innsbrook</span>
       <span class="area-tag"><i data-lucide="map-pin"></i> Foristell</span>
-      <span class="area-tag"><i data-lucide="map-pin"></i> Marthasville</span>
-      <span class="area-tag"><i data-lucide="map-pin"></i> New Florence</span>
-      <span class="area-tag"><i data-lucide="map-pin"></i> Hermann</span>
+      <span class="area-tag"><i data-lucide="map-pin"></i> Wentzville</span>
+      <span class="area-tag"><i data-lucide="map-pin"></i> Lake St. Louis</span>
     </div>
 
     <div style="text-align:center; margin-top:var(--space-8);" data-animate>

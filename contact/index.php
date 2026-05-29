@@ -436,7 +436,7 @@ $schemaMarkup = json_encode([
             <div>
               <h3>Location</h3>
               <p><?= htmlspecialchars($address['city']) ?>, <?= htmlspecialchars($address['state']) ?> <?= htmlspecialchars($address['zip']) ?></p>
-              <p>Serving a 50-mile radius</p>
+              <p>Innsbrook, Foristell, Wentzville &amp; Lake St. Louis</p>
             </div>
           </div>
 
@@ -472,7 +472,7 @@ $schemaMarkup = json_encode([
   <div class="container" data-animate>
     <span class="eyebrow-label">Service Area</span>
     <h2>Where Does CPA Roofing <span class="text-accent">Provide Estimates</span>?</h2>
-    <p class="answer-block">CPA Roofing &amp; Construction provides free on-site estimates throughout Warrenton, MO and all communities within a 50-mile radius. That includes Wright City, Wentzville, Troy, Moscow Mills, Jonesburg, Montgomery City, Foristell, and the broader Warren County area along the I-70 corridor and Highway 47.</p>
+    <p class="answer-block">CPA Roofing &amp; Construction provides free on-site estimates throughout Innsbrook, Foristell, Wentzville, and Lake St. Louis, MO. As insurance claim specialists experienced in policyholder representation, we also provide free storm damage inspections and represent property owners throughout the insurance claims process at no additional charge.</p>
     <a href="/service-area/" class="btn btn-accent">View Full Service Area</a>
   </div>
 </section>

@@ -67,8 +67,8 @@ $homepageServices = [
     [
         'name'    => 'Insurance Roofing Bids',
         'icon'    => 'file-text',
-        'desc'    => 'We handle the insurance paperwork so you can focus on your family.',
-        'bullets' => ['Free storm damage inspections', 'Direct adjuster coordination', 'Maximize your claim payout'],
+        'desc'    => 'Insurance claim specialists — we represent property owners throughout the entire claims process.',
+        'bullets' => ['Free storm damage inspections', 'Policyholder representation with adjusters', 'Maximize your claim payout'],
         'image'   => $photoBase . '1779465578117-ahpx0j-40855264_1098160506999849_1343386300408922112_n.jpg',
         'alt'     => 'Insurance roofing bid assessment by CPA Roofing',
         'link'    => '/services/roofing-services/',
@@ -92,7 +92,7 @@ $faqs = [
     ],
     [
         'question' => 'Does CPA Roofing work with insurance companies on storm claims?',
-        'answer'   => 'Yes. We handle insurance roofing bids from start to finish — free storm damage inspection, detailed scope of work, direct coordination with your adjuster, and supplemental filing if the initial estimate comes in low. We have been navigating Missouri insurance claims since 1995.',
+        'answer'   => 'Yes. As insurance claim specialists with experience in policyholder representation, we handle the entire process — free storm damage inspection, detailed scope of work, direct representation with your adjuster, and supplemental filing if the initial estimate comes in low. We have been advocating for Missouri property owners since 1995.',
     ],
     [
         'question' => 'How long does a full roof replacement take?',
@@ -108,7 +108,7 @@ $faqs = [
     ],
     [
         'question' => 'What areas around Warrenton does CPA Roofing serve?',
-        'answer'   => 'We serve Warrenton and communities within a 50-mile radius including Wright City, Wentzville, Troy, Moscow Mills, Jonesburg, Montgomery City, and surrounding Warren County. If you are unsure whether you are in our service area, give us a call — we will let you know.',
+        'answer'   => 'We serve Innsbrook, Foristell, Wentzville, and Lake St. Louis, MO. If you are in one of these communities or the surrounding area, give us a call — we will let you know.',
     ],
 ];
 
@@ -640,8 +640,8 @@ foreach ($homepageServices as $i => $svc):
       <div class="about-content" data-animate>
         <span class="eyebrow-label">About Us</span>
         <h2>Why Warrenton Homeowners Have Trusted CPA Since <span class="text-accent">1995</span></h2>
-        <p>Founded in 1995, CPA Roofing & Construction, LLC has spent nearly three decades building a reputation for honesty, reliability, and exceptional craftsmanship throughout Missouri. Based in Warrenton and serving communities across central and eastern Missouri, we have become the contractor of choice for homeowners and businesses who demand dependable work.</p>
-        <p>We specialize in comprehensive roofing and construction solutions — residential and commercial roofing, siding, and insurance-based storm restoration. Our deep understanding of the insurance claims process means we are not just contractors — we are advocates who help clients navigate storm damage recovery and ensure they receive the support they deserve.</p>
+        <p>Founded in 1995, CPA Roofing & Construction, LLC has spent nearly three decades building a reputation for honesty, reliability, and exceptional craftsmanship. Serving Innsbrook, Foristell, Wentzville, and Lake St. Louis, we have become the contractor of choice for homeowners and businesses who demand dependable work.</p>
+        <p>We specialize in comprehensive roofing and construction solutions — residential and commercial roofing, siding, and insurance-based storm restoration. As insurance claim specialists experienced in policyholder representation, we are not just contractors — we are advocates who represent clients directly with their insurance carriers and ensure they receive the full coverage they deserve.</p>
 
         <div class="process-steps">
           <div class="process-step">
