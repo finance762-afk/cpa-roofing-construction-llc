@@ -502,7 +502,7 @@ $schemaMarkup = json_encode($faqSchema, JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRI
       <span><i data-lucide="clock" style="width:14px;height:14px"></i> 7 Days a Week</span>
       <span><i data-lucide="map-pin" style="width:14px;height:14px"></i> Warrenton, MO</span>
       <span><i data-lucide="cloud-rain" style="width:14px;height:14px"></i> Storm Damage Experts</span>
-      <span><i data-lucide="compass" style="width:14px;height:14px"></i> 50-Mile Service Radius</span>
+      <span><i data-lucide="map-pin" style="width:14px;height:14px"></i> Innsbrook &amp; Foristell</span>
       <span><i data-lucide="award" style="width:14px;height:14px"></i> Free Estimates</span>
     </div>
     <div class="ticker-group" aria-hidden="true">
@@ -513,7 +513,7 @@ $schemaMarkup = json_encode($faqSchema, JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRI
       <span><i data-lucide="clock" style="width:14px;height:14px"></i> 7 Days a Week</span>
       <span><i data-lucide="map-pin" style="width:14px;height:14px"></i> Warrenton, MO</span>
       <span><i data-lucide="cloud-rain" style="width:14px;height:14px"></i> Storm Damage Experts</span>
-      <span><i data-lucide="compass" style="width:14px;height:14px"></i> 50-Mile Service Radius</span>
+      <span><i data-lucide="map-pin" style="width:14px;height:14px"></i> Innsbrook &amp; Foristell</span>
       <span><i data-lucide="award" style="width:14px;height:14px"></i> Free Estimates</span>
     </div>
   </div>

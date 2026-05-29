@@ -1,12 +1,11 @@
 # CPA Roofing & Construction, LLC
 
 ## Company Overview
-CPA Roofing & Construction, LLC is a licensed roofing and general construction contractor based in Warrenton, Missouri. Founded in 1995, the company serves residential and commercial property owners across central and eastern Missouri within a 50-mile radius of Warrenton. Licensed, insured, and available seven days a week.
+CPA Roofing & Construction, LLC is a licensed roofing and general construction contractor based in Warrenton, Missouri. Founded in 1995, the company serves residential and commercial property owners in Innsbrook, Foristell, Wentzville, and Lake St. Louis. Licensed, insured, and available seven days a week.
 
 ## Location
 - City: Warrenton, MO 63383
-- Service radius: 50 miles
-- Counties served: Warren, Lincoln, Montgomery, Gasconade, Franklin, St. Charles (partial)
+- Service area: Innsbrook, Foristell, Wentzville, Lake St. Louis
 
 ## Services Offered
 1. New Roof Installation — Shingle, metal, and flat roof systems for homes and businesses
