@@ -494,15 +494,28 @@ $schemaMarkup = json_encode($faqSchema, JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRI
      ═══════════════════════════════════════════════════════════════ -->
 <div class="ticker-strip" aria-hidden="true">
   <div class="ticker-track">
-    <span><i data-lucide="calendar" style="width:14px;height:14px"></i> Since 1995</span>
-    <span><i data-lucide="shield-check" style="width:14px;height:14px"></i> Licensed &amp; Insured</span>
-    <span><i data-lucide="home" style="width:14px;height:14px"></i> Residential &amp; Commercial</span>
-    <span><i data-lucide="star" style="width:14px;height:14px"></i> 4.9 Google Rating</span>
-    <span><i data-lucide="clock" style="width:14px;height:14px"></i> 7 Days a Week</span>
-    <span><i data-lucide="map-pin" style="width:14px;height:14px"></i> Warrenton, MO</span>
-    <span><i data-lucide="cloud-rain" style="width:14px;height:14px"></i> Storm Damage Experts</span>
-    <span><i data-lucide="compass" style="width:14px;height:14px"></i> 50-Mile Service Radius</span>
-    <span><i data-lucide="award" style="width:14px;height:14px"></i> Free Estimates</span>
+    <div class="ticker-group">
+      <span><i data-lucide="calendar" style="width:14px;height:14px"></i> Since 1995</span>
+      <span><i data-lucide="shield-check" style="width:14px;height:14px"></i> Licensed &amp; Insured</span>
+      <span><i data-lucide="home" style="width:14px;height:14px"></i> Residential &amp; Commercial</span>
+      <span><i data-lucide="star" style="width:14px;height:14px"></i> 4.9 Google Rating</span>
+      <span><i data-lucide="clock" style="width:14px;height:14px"></i> 7 Days a Week</span>
+      <span><i data-lucide="map-pin" style="width:14px;height:14px"></i> Warrenton, MO</span>
+      <span><i data-lucide="cloud-rain" style="width:14px;height:14px"></i> Storm Damage Experts</span>
+      <span><i data-lucide="compass" style="width:14px;height:14px"></i> 50-Mile Service Radius</span>
+      <span><i data-lucide="award" style="width:14px;height:14px"></i> Free Estimates</span>
+    </div>
+    <div class="ticker-group" aria-hidden="true">
+      <span><i data-lucide="calendar" style="width:14px;height:14px"></i> Since 1995</span>
+      <span><i data-lucide="shield-check" style="width:14px;height:14px"></i> Licensed &amp; Insured</span>
+      <span><i data-lucide="home" style="width:14px;height:14px"></i> Residential &amp; Commercial</span>
+      <span><i data-lucide="star" style="width:14px;height:14px"></i> 4.9 Google Rating</span>
+      <span><i data-lucide="clock" style="width:14px;height:14px"></i> 7 Days a Week</span>
+      <span><i data-lucide="map-pin" style="width:14px;height:14px"></i> Warrenton, MO</span>
+      <span><i data-lucide="cloud-rain" style="width:14px;height:14px"></i> Storm Damage Experts</span>
+      <span><i data-lucide="compass" style="width:14px;height:14px"></i> 50-Mile Service Radius</span>
+      <span><i data-lucide="award" style="width:14px;height:14px"></i> Free Estimates</span>
+    </div>
   </div>
 </div>
 

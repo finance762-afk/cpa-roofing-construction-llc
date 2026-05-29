@@ -188,4 +188,4 @@ $businessAddress = trim(implode(', ', array_filter([
 ])));
 
 // ── CSS Version (increment on every styles.css change) ──────
-$cssVersion = '5';
+$cssVersion = '6';
